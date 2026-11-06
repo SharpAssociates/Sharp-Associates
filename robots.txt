@@ -1,0 +1,9 @@
+# robots.txt for Sharp Associates (https://sharpassociates.in)
+User-agent: *
+Allow: /
+
+# Disallow crawling of uploaded customer documents and media
+Disallow: /uploads/
+
+# Sitemap location
+Sitemap: https://sharpassociates.in/sitemap.xml

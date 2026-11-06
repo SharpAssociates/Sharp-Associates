@@ -1,0 +1,18 @@
+# Large testimonial videos
+images/testimonial videos/*.mp4
+
+# Sensitive files
+.env
+.env.*
+
+# Dependencies
+/vendor/
+/node_modules/
+
+# IDE files
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
