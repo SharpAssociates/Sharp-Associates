@@ -28,6 +28,9 @@ if (!empty($_POST['name']) && !empty($_POST['email'])) {
     $hs_image = '';
     if (isset($_FILES['fileToUpload']) && $_FILES['fileToUpload']['error'] === UPLOAD_ERR_OK) {
         $hs_targetDir = "uploads/";
+        if (!is_dir($hs_targetDir)) {
+            @mkdir($hs_targetDir, 0755, true);
+        }
         $hs_fileName = basename($_FILES["fileToUpload"]["name"]);
         $hs_fileType = pathinfo($hs_fileName, PATHINFO_EXTENSION);
         $allowedTypes = ['pdf', 'doc', 'docx', 'jpg', 'png'];
@@ -56,31 +59,33 @@ if (!empty($_POST['name']) && !empty($_POST['email'])) {
             <p><strong>Message:</strong> $message</p>";
 
     if ($hs_image !== '') {
-        $email_message .= "<p><strong>Uploaded File:</strong> <a href='https://yourdomain.com/$hs_image' target='_blank'>View File</a></p>";
+        $email_message .= "<p><strong>Uploaded File:</strong> <a href='https://sharpassociates.in/$hs_image' target='_blank'>View File</a></p>";
     }
 
     $email_message .= "</div></body></html>";
 
     // Headers
-    $email_from = "abelraj@fyndxmarketing.com";
+    $email_from = "maaran@ysa-india.com";
     $headers = "MIME-Version: 1.0\r\n";
     $headers .= "Content-type: text/html; charset=UTF-8\r\n";
-    $headers .= "Reply-To: $email\r\n";
-    $headers .= "From: $name <$email_from>\r\n";
+    $headers .= "Reply-To: $name <$email>\r\n";
+    $headers .= "From: Sharp Associates <$email_from>\r\n";
 
     // Recipients
-    $recipients1 = "fyndxadmin@gmail.com";
-    $recipients2 = "maaran@ysa-india.com";
+    $recipients1 = "maaran@ysa-india.com";
+    $recipients2 = "fyndxadmin@gmail.com";
 
     // Mail Send   
-    if (mail($recipients1, $email_subject, $email_message, $headers, "-f $email_from")) {
-        mail($recipients2, $email_subject, $email_message, $headers, "-f $email_from");
+    if (@mail($recipients1, $email_subject, $email_message, $headers, "-f $email_from")) {
+        if (!empty($recipients2)) {
+            @mail($recipients2, $email_subject, $email_message, $headers, "-f $email_from");
+        }
 
-        echo '<script>alert("Thank you for contacting us! Our team will respond shortly.");</script>';
-        echo '<meta http-equiv="refresh" content="3; URL=index.php">';
+        header("Location: thankyou.php");
+        exit;
     } else {
-        echo '<script>alert("Email sending failed. Please try again later.");</script>';
-        echo '<meta http-equiv="refresh" content="3; URL=index.php">';
+        header("Location: contact.php?status=error");
+        exit;
     }
 } else {
     header("Location: contact.php");

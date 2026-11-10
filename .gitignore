@@ -16,3 +16,6 @@ images/testimonial videos/*.mp4
 # Operating system files
 .DS_Store
 Thumbs.db
+
+# Backups
+/_backup_phase1/
