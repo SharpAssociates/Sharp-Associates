@@ -66,7 +66,7 @@ include "header.php";
                     <!-- Contact Us Image Start -->
                     <div class="contact-us-image">
                         <figure class="image-anime reveal">
-                            <img src="images/resources/sharp-8.png" alt="Construction consultation and project planning at Sharp Associates Chennai office">
+                            <img src="images/resources/sharp-8.webp" alt="Construction consultation and project planning at Sharp Associates Chennai office" width="1536" height="1024" loading="lazy" decoding="async">
                         </figure>
                     </div>
                     <!-- Contact Us Image End -->

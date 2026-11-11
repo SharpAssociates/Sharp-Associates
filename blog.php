@@ -55,7 +55,7 @@ include "header.php";
 					<div class="post-featured-image">
 						<figure>
 							<a href="blog-1.php" class="image-anime" data-cursor-text="View">
-								<img src="images/resources/sharp-1.png" alt="Building a better tomorrow with smarter construction practices">
+								<img src="images/resources/sharp-1.webp" alt="Building a better tomorrow with smarter construction practices" width="1536" height="1024" loading="lazy" decoding="async">
 							</a>
 						</figure>
 					</div>
@@ -77,7 +77,7 @@ include "header.php";
 					<div class="post-featured-image">
 						<figure>
 							<a href="blog-2.php" class="image-anime" data-cursor-text="View">
-								<img src="images/resources/sharp-6.png" alt="Today's smart buildings">
+								<img src="images/resources/sharp-6.webp" alt="Today's smart buildings" width="1536" height="1024" loading="lazy" decoding="async">
 							</a>
 						</figure>
 					</div>
@@ -99,7 +99,7 @@ include "header.php";
 					<div class="post-featured-image">
 						<figure>
 							<a href="blog-3.php" class="image-anime" data-cursor-text="View">
-								<img src="images/resources/sharp-11.jpg" alt="Building for tomorrow sustainable construction">
+								<img src="images/resources/sharp-11.jpg" alt="Building for tomorrow sustainable construction" width="1200" height="960" loading="lazy" decoding="async">
 							</a>
 						</figure>
 					</div>

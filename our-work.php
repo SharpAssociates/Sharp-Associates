@@ -57,24 +57,22 @@ include "header.php";
 			<div class="row gallery-items page-gallery-box">
                 <?php
                     $resourceImages = [
-                        'sharp-1.png',
-                        'sharp-2.png',
-                        'sharp-3.png',
-                        'sharp-4.png',
-                        'sharp-5.png',
-                        'sharp-6.png',
-                        'sharp-7.png',
-                        'sharp-8.png',
-                        'sharp-9.png',
-                        'sharp-10.png',
+                        'sharp-1.webp',
+                        'sharp-2.webp',
+                        'sharp-3.webp',
+                        'sharp-4.webp',
+                        'sharp-5.webp',
+                        'sharp-6.webp',
+                        'sharp-7.webp',
+                        'sharp-8.webp',
+                        'sharp-9.webp',
+                        'sharp-10.webp',
                         'sharp-11.jpg',
                         'sharp-13.jpg',
                         'sharp-14.jpg',
                         'sharp-15.jpg',
-                         'sharp-16.jpg',
+                        'sharp-16.jpg',
                         'sharp-17.jpg',
-                        
-
                     ];
 
                     foreach ($resourceImages as $index => $image):
@@ -86,7 +84,7 @@ include "header.php";
                     <div class="photo-gallery wow fadeInUp" data-wow-delay="<?php echo $delay; ?>s" data-cursor-text="View">
                         <a href="<?php echo $imagePath; ?>" aria-label="View Sharp Associates construction project <?php echo $index + 1; ?>">
                             <figure class="image-anime">
-                                <img src="<?php echo $imagePath; ?>" alt="Sharp Associates construction and architecture project <?php echo $index + 1; ?> in Chennai">
+                                <img src="<?php echo $imagePath; ?>" alt="Sharp Associates construction and architecture project <?php echo $index + 1; ?> in Chennai" width="1536" height="1024" loading="lazy" decoding="async">
                             </figure>
                         </a>
                     </div>

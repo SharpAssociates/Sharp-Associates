@@ -68,7 +68,7 @@ include "header.php";
                         <!-- About Image 1 Start -->
                         <div class="about-img-1">
                             <figure class="image-anime reveal">
-                                <img src="images/resources/sharp-9.png" alt="Civil construction engineers and project managers in Chennai">
+                                <img src="images/resources/sharp-9.webp" alt="Civil construction engineers and project managers in Chennai" width="1536" height="1024" loading="lazy" decoding="async">
                             </figure>
                         </div>
                         <!-- About Image 1 End -->
@@ -76,7 +76,7 @@ include "header.php";
                         <!-- About Image 2 Start -->
                         <div class="about-img-2">
                             <figure class="image-anime reveal">
-                                <img src="images/resources/sharp-10.png" alt="Structural foundation and civil construction site work in Chennai">
+                                <img src="images/resources/sharp-10.webp" alt="Structural foundation and civil construction site work in Chennai" width="1536" height="1024" loading="lazy" decoding="async">
                             </figure>
 
                            
@@ -259,7 +259,7 @@ include "header.php";
 						<div class="team-image">
                            
                                 <figure class="image-anime">
-                                    <img src="images/team/manimaran.webp" alt="K. Manimaran - Founder of Sharp Associates">
+                                    <img src="images/team/manimaran.webp" alt="K. Manimaran - Founder of Sharp Associates" width="295" height="327" loading="lazy" decoding="async">
                                 </figure>
                         </div>	
                         <!-- Team Image End -->
@@ -285,7 +285,7 @@ include "header.php";
 						<div class="team-image">
                             
                                 <figure class="image-anime">
-                                    <img src="images/team/manjula.webp" alt="S. Manjula - Co-Founder of Sharp Associates">
+                                    <img src="images/team/manjula.webp" alt="S. Manjula - Co-Founder of Sharp Associates" width="295" height="327" loading="lazy" decoding="async">
                                 </figure>
                    
                         </div>	
@@ -312,7 +312,7 @@ include "header.php";
 						<div class="team-image">
                        
                                 <figure class="image-anime">
-                                    <img src="images/team/sreedha.webp" alt="M. Sreedha - Interior Architect at Sharp Associates">
+                                    <img src="images/team/sreedha.webp" alt="M. Sreedha - Interior Architect at Sharp Associates" width="295" height="327" loading="lazy" decoding="async">
                                 </figure>
                       </div>	
                         <!-- Team Image End -->
@@ -339,7 +339,7 @@ include "header.php";
 						<div class="team-image">
                             
                                 <figure class="image-anime">
-                                    <img src="images/team/ashok.webp" alt="T. Ashok - Electrical Engineer at Sharp Associates">
+                                    <img src="images/team/ashok.webp" alt="T. Ashok - Electrical Engineer at Sharp Associates" width="295" height="327" loading="lazy" decoding="async">
                                 </figure>
                    
                         </div>	
@@ -366,7 +366,7 @@ include "header.php";
 						<div class="team-image">
                        
                                 <figure class="image-anime">
-                                    <img src="images/team/gopi.webp" alt="P. Gopi - Site Engineer at Sharp Associates">
+                                    <img src="images/team/gopi.webp" alt="P. Gopi - Site Engineer at Sharp Associates" width="295" height="327" loading="lazy" decoding="async">
                                 </figure>
                       </div>	
                         <!-- Team Image End -->
@@ -391,7 +391,7 @@ include "header.php";
 						<div class="team-image">
                        
                                 <figure class="image-anime">
-                                    <img src="images/team/lokesh.webp" alt="Lokesh - Driver and Office Assistant at Sharp Associates">
+                                    <img src="images/team/lokesh.webp" alt="Lokesh - Driver and Office Assistant at Sharp Associates" width="295" height="327" loading="lazy" decoding="async">
                                 </figure>
                       </div>	
                         <!-- Team Image End -->
@@ -417,7 +417,7 @@ include "header.php";
 						<div class="team-image">
                            
                                 <figure class="image-anime">
-                                    <img src="images/team/jayapradha.webp" alt="Jayapradha - Accounts Executive at Sharp Associates">
+                                    <img src="images/team/jayapradha.webp" alt="Jayapradha - Accounts Executive at Sharp Associates" width="295" height="327" loading="lazy" decoding="async">
                                 </figure>
                         </div>	
                         <!-- Team Image End -->
@@ -454,7 +454,7 @@ include "header.php";
                     <!-- Our Testimonial Image Start -->
                     <div class="our-testimonials-image">
                         <figure class="image-anime">
-                            <img src="images/resources/sharp-2.png" alt="Sharp Associates featured project">
+                            <img src="images/resources/sharp-2.webp" alt="Sharp Associates featured project" width="1024" height="1024" loading="lazy" decoding="async">
                         </figure>
                     </div>
                     <!-- Our Testimonial Image End -->
@@ -492,7 +492,7 @@ include "header.php";
                                             <div class="testimonial-body">
                                                 <div class="author-image">
                                                     <figure class="image-anime">
-                                                        <img src="images/resources/sharp-3.png" alt="Sharp Associates client project">
+                                                        <img src="images/resources/sharp-3.webp" alt="Sharp Associates client project" width="1536" height="1024" loading="lazy" decoding="async">
                                                     </figure>
                                                 </div>            
                                                 <div class="author-content">
@@ -522,7 +522,7 @@ include "header.php";
                                             <div class="testimonial-body">
                                                 <div class="author-image">
                                                     <figure class="image-anime">
-                                                        <img src="images/resources/sharp-4.png" alt="Sharp Associates client project">
+                                                        <img src="images/resources/sharp-4.webp" alt="Sharp Associates client project" width="1024" height="1024" loading="lazy" decoding="async">
                                                     </figure>
                                                 </div>            
                                                 <div class="author-content">
@@ -552,7 +552,7 @@ include "header.php";
                                             <div class="testimonial-body">
                                                 <div class="author-image">
                                                     <figure class="image-anime">
-                                                        <img src="images/resources/sharp-5.png" alt="Sharp Associates client project">
+                                                        <img src="images/resources/sharp-5.webp" alt="Sharp Associates client project" width="1536" height="1024" loading="lazy" decoding="async">
                                                     </figure>
                                                 </div>            
                                                 <div class="author-content">

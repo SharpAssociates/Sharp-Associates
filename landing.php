@@ -180,6 +180,8 @@ if (($_SERVER["REQUEST_METHOD"] ?? '') === "POST") {
 	<!-- Google Fonts Css-->
 	<link rel="preconnect" href="https://fonts.googleapis.com/">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+	<link rel="dns-prefetch" href="https://fonts.googleapis.com">
+	<link rel="dns-prefetch" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&amp;display=swap" rel="stylesheet">
 	<!-- Bootstrap Css -->
 	<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
@@ -410,7 +412,7 @@ if (($_SERVER["REQUEST_METHOD"] ?? '') === "POST") {
 	<div class="preloader">
 		<div class="loading-container">
 			<div class="loading"></div>
-			<div id="loading-icon"><img src="images/resources/favicon-sa.webp" alt="Sharp Associates"></div>
+			<div id="loading-icon"><img src="images/resources/favicon-sa.webp" alt="Sharp Associates" width="100" height="100"></div>
 		</div>
 	</div>
 	<!-- Preloader End -->
@@ -422,7 +424,7 @@ if (($_SERVER["REQUEST_METHOD"] ?? '') === "POST") {
 				<div class="navbar navbar-expand-lg d-flex justify-content-between w-100 landing-navbar">
 					<!-- Logo Start -->
 					<a class="navbar-brand" href="/">
-						<img src="images/resources/sa-logo.webp" alt="Sharp Associates Logo">
+						<img src="images/resources/sa-logo.webp" alt="Sharp Associates Logo" width="160" height="40">
 					</a>
 					<!-- Logo End -->
 
@@ -480,7 +482,7 @@ if (($_SERVER["REQUEST_METHOD"] ?? '') === "POST") {
 
                         <div class="contact-us-image mt-5">
                             <figure class="image-anime reveal">
-                                <img src="images/resources/sharp-4.png" alt="Construction experience" style="border-radius: 10px;">
+                                <img src="images/resources/sharp-4.webp" alt="Construction experience" style="border-radius: 10px;" width="1024" height="1024" loading="lazy" decoding="async">
                             </figure>
                         </div>
                     </div>
@@ -662,7 +664,7 @@ if (($_SERVER["REQUEST_METHOD"] ?? '') === "POST") {
                             <!-- Why Choose img 1 Start -->
                             <div class="why-choose-img-1">
                                 <figure class="image-anime reveal">
-                                    <img src="images/resources/sharp-5.png" alt="Construction planning and execution">
+                                    <img src="images/resources/sharp-5.webp" alt="Construction planning and execution" width="1536" height="1024" loading="lazy" decoding="async">
                                 </figure>
                             </div>
                             <!-- Why Choose img 1 End -->
@@ -670,7 +672,7 @@ if (($_SERVER["REQUEST_METHOD"] ?? '') === "POST") {
                             <!-- Why Choose img 2 Start -->
                             <div class="why-choose-img-2">
                                 <figure class="image-anime reveal">
-                                    <img src="images/resources/sharp-6.png" alt="Quality-focused building work">
+                                    <img src="images/resources/sharp-6.webp" alt="Quality-focused building work" width="1536" height="1024" loading="lazy" decoding="async">
                                 </figure>
                             </div>
                             <!-- Why Choose img 2 End -->
@@ -682,7 +684,7 @@ if (($_SERVER["REQUEST_METHOD"] ?? '') === "POST") {
                             <!-- Why Choose img 3 Start -->
                             <div class="why-choose-img-3">
                                 <figure class="image-anime reveal">
-                                    <img src="images/resources/sharp-7.png" alt="Modern structure by Sharp Associates">
+                                    <img src="images/resources/sharp-7.webp" alt="Modern structure by Sharp Associates" width="1536" height="1024" loading="lazy" decoding="async">
                                 </figure>
                             </div>
                             <!-- Why Choose img 3 End -->
@@ -690,7 +692,7 @@ if (($_SERVER["REQUEST_METHOD"] ?? '') === "POST") {
                             <!-- Why Choose img 4 Start -->
                             <div class="why-choose-img-4">
                                 <figure class="image-anime reveal">
-                                    <img src="images/resources/sharp-8.png" alt="Reliable project delivery by Sharp Associates">
+                                    <img src="images/resources/sharp-8.webp" alt="Reliable project delivery by Sharp Associates" width="1536" height="1024" loading="lazy" decoding="async">
                                 </figure>
                             </div>
                             <!-- Why Choose img 4 End -->
@@ -799,7 +801,7 @@ if (($_SERVER["REQUEST_METHOD"] ?? '') === "POST") {
                             <div class="col-md-6">
                                 <!-- Footer Logo Start -->
                                 <div class="footer-logo">
-                                    <img src="images/resources/sa-logo-footer.webp" alt="Sharp Associates Logo">
+                                    <img src="images/resources/sa-logo-footer.webp" alt="Sharp Associates Logo" width="160" height="40" loading="lazy">
                                 </div>
                                 <!-- Footer Logo End -->
                             </div>
@@ -854,38 +856,38 @@ if (($_SERVER["REQUEST_METHOD"] ?? '') === "POST") {
     <!-- Sticky Contact Buttons End -->
 
     <!-- Jquery Library File -->
-    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/jquery-3.7.1.min.js" defer></script>
     <!-- Bootstrap js file -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js" defer></script>
     <!-- Validator js file -->
-    <script src="js/validator.min.js"></script>
+    <script src="js/validator.min.js" defer></script>
     <!-- SlickNav js file -->
-    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/jquery.slicknav.js" defer></script>
     <!-- Swiper js file -->
-    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/swiper-bundle.min.js" defer></script>
     <!-- Counter js file -->
-    <script src="js/jquery.waypoints.min.js"></script>
-    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/jquery.waypoints.min.js" defer></script>
+    <script src="js/jquery.counterup.min.js" defer></script>
     <!-- Isotop js file -->
-	<script src="js/isotope.min.js"></script>
+	<script src="js/isotope.min.js" defer></script>
     <!-- Magnific js file -->
-    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js" defer></script>
     <!-- SmoothScroll -->
-    <script src="js/SmoothScroll.js"></script>
+    <script src="js/SmoothScroll.js" defer></script>
     <!-- Parallax js -->
-    <script src="js/parallaxie.js"></script>
+    <script src="js/parallaxie.js" defer></script>
     <!-- MagicCursor js file -->
-    <script src="js/gsap.min.js"></script>
-    <script src="js/magiccursor.js"></script>
+    <script src="js/gsap.min.js" defer></script>
+    <script src="js/magiccursor.js" defer></script>
     <!-- Text Effect js file -->
-    <script src="js/SplitText.js"></script>
-    <script src="js/ScrollTrigger.min.js"></script>
+    <script src="js/SplitText.js" defer></script>
+    <script src="js/ScrollTrigger.min.js" defer></script>
     <!-- YTPlayer js File -->
-    <script src="js/jquery.mb.YTPlayer.min.js"></script>
+    <script src="js/jquery.mb.YTPlayer.min.js" defer></script>
     <!-- Wow js file -->
-    <script src="js/wow.min.js"></script>
+    <script src="js/wow.min.js" defer></script>
     <!-- Main Custom js file -->
-    <script src="js/function.js"></script>
+    <script src="js/function.js" defer></script>
 </body>
 
 </html>

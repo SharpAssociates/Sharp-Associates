@@ -158,7 +158,7 @@
     <div class="thankyou-wrapper">
         <div class="thankyou-card">
             <div class="thankyou-header text-center text-md-start">
-                <img src="images/resources/sa-logo-footer.webp" alt="Sharp Associates">
+                <img src="images/resources/sa-logo-footer.webp" alt="Sharp Associates" width="160" height="40">
             </div>
 
             <div class="thankyou-body">

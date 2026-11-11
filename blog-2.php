@@ -376,7 +376,7 @@ include "header.php";
 				<div class="hero-card wow fadeInUp">
 					<div class="hero-media">
 						<figure class="image-anime reveal mb-0">
-							<img src="images/resources/sharp-6.png" alt="Smart building with sustainable construction systems">
+							<img src="images/resources/sharp-6.webp" alt="Smart building with sustainable construction systems" width="1536" height="1024" loading="lazy" decoding="async">
 						</figure>
 						<div class="hero-badge">Smart Construction</div>
 					</div>

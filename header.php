@@ -39,9 +39,15 @@ $noindex = !empty($noindex);
 
 	<!-- Favicon Icon -->
 	<link rel="shortcut icon" type="image/x-icon" href="images/resources/favicon-sa.webp">
+<?php if (!empty($preload_lcp_image)): ?>
+	<!-- Preload Primary LCP Hero Image -->
+	<link rel="preload" as="image" href="<?php echo htmlspecialchars($preload_lcp_image, ENT_QUOTES, 'UTF-8'); ?>" type="image/webp" fetchpriority="high">
+<?php endif; ?>
 	<!-- Google Fonts Css-->
 	<link rel="preconnect" href="https://fonts.googleapis.com/">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+	<link rel="dns-prefetch" href="https://fonts.googleapis.com">
+	<link rel="dns-prefetch" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&amp;display=swap" rel="stylesheet">
 	<!-- Bootstrap Css -->
 	<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
@@ -72,7 +78,7 @@ $noindex = !empty($noindex);
 	<div class="preloader">
 		<div class="loading-container">
 			<div class="loading"></div>
-			<div id="loading-icon"><img src="images/resources/favicon-sa.webp" alt="Sharp Associates"></div>
+			<div id="loading-icon"><img src="images/resources/favicon-sa.webp" alt="Sharp Associates" width="100" height="100"></div>
 		</div>
 	</div>
 	<!-- Preloader End -->
@@ -84,7 +90,7 @@ $noindex = !empty($noindex);
 				<div class="navbar navbar-expand-lg">
 					<!-- Logo Start -->
 					<a class="navbar-brand" href="/">
-						<img src="images/resources/sa-logo.webp" alt="Sharp Associates Logo">
+						<img src="images/resources/sa-logo.webp" alt="Sharp Associates Logo" width="160" height="40">
 					</a>
 					<!-- Logo End -->
 

@@ -10,7 +10,7 @@
                             <div class="col-md-6">
                                 <!-- Footer Logo Start -->
                                 <div class="footer-logo">
-                                    <img src="images/resources/sa-logo-footer.webp" alt="Sharp Associates Logo">
+                                    <img src="images/resources/sa-logo-footer.webp" alt="Sharp Associates Logo" width="160" height="40" loading="lazy">
                                 </div>
                                 <!-- Footer Logo End -->
                             </div>
@@ -159,38 +159,38 @@ India.</p>
     <!-- Sticky Contact Buttons End -->
 
     <!-- Jquery Library File -->
-    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/jquery-3.7.1.min.js" defer></script>
     <!-- Bootstrap js file -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js" defer></script>
     <!-- Validator js file -->
-    <script src="js/validator.min.js"></script>
+    <script src="js/validator.min.js" defer></script>
     <!-- SlickNav js file -->
-    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/jquery.slicknav.js" defer></script>
     <!-- Swiper js file -->
-    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/swiper-bundle.min.js" defer></script>
     <!-- Counter js file -->
-    <script src="js/jquery.waypoints.min.js"></script>
-    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/jquery.waypoints.min.js" defer></script>
+    <script src="js/jquery.counterup.min.js" defer></script>
     <!-- Isotop js file -->
-	<script src="js/isotope.min.js"></script>
+	<script src="js/isotope.min.js" defer></script>
     <!-- Magnific js file -->
-    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js" defer></script>
     <!-- SmoothScroll -->
-    <script src="js/SmoothScroll.js"></script>
+    <script src="js/SmoothScroll.js" defer></script>
     <!-- Parallax js -->
-    <script src="js/parallaxie.js"></script>
+    <script src="js/parallaxie.js" defer></script>
     <!-- MagicCursor js file -->
-    <script src="js/gsap.min.js"></script>
-    <script src="js/magiccursor.js"></script>
+    <script src="js/gsap.min.js" defer></script>
+    <script src="js/magiccursor.js" defer></script>
     <!-- Text Effect js file -->
-    <script src="js/SplitText.js"></script>
-    <script src="js/ScrollTrigger.min.js"></script>
+    <script src="js/SplitText.js" defer></script>
+    <script src="js/ScrollTrigger.min.js" defer></script>
     <!-- YTPlayer js File -->
-    <script src="js/jquery.mb.YTPlayer.min.js"></script>
+    <script src="js/jquery.mb.YTPlayer.min.js" defer></script>
     <!-- Wow js file -->
-    <script src="js/wow.min.js"></script>
+    <script src="js/wow.min.js" defer></script>
     <!-- Main Custom js file -->
-    <script src="js/function.js"></script>
+    <script src="js/function.js" defer></script>
 </body>
 
 </html>

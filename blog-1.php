@@ -394,7 +394,7 @@ include "header.php";
 				<div class="blog-hero-card wow fadeInUp">
 					<div class="blog-hero-image">
 						<figure class="image-anime reveal mb-0">
-							<img src="images/resources/sharp-1.png" alt="Modern construction site with advanced building practices">
+							<img src="images/resources/sharp-1.webp" alt="Modern construction site with advanced building practices" width="1536" height="1024" loading="lazy" decoding="async">
 						</figure>
 						<div class="blog-hero-badge">Future of Construction</div>
 					</div>

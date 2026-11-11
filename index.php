@@ -2,6 +2,7 @@
 $page_title = "Building Construction Contractors in Chennai | Sharp Associates";
 $page_description = "Trusted building construction contractors in Chennai. Sharp Associates delivers turnkey residential & commercial construction, architectural design, and joint venture developments.";
 $canonical_url = "https://sharpassociates.in/";
+$preload_lcp_image = "images/resources/hero-banner-1.webp";
 $og_image = "https://sharpassociates.in/images/resources/hero-banner-1.webp";
 $og_type = "website";
 
@@ -79,7 +80,7 @@ include "header.php";
                     <div class="hero-slide">
                         <!-- Slider Image Start -->
                         <div class="hero-slider-image">
-                            <img src="images/resources/hero-banner-1.webp" alt="Building construction contractors in Chennai - Sharp Associates residential project">
+                            <img src="images/resources/hero-banner-1.webp" alt="Building construction contractors in Chennai - Sharp Associates residential project" width="1920" height="1280" fetchpriority="high">
                         </div>
                         <!-- Slider Image End -->
 
@@ -116,7 +117,7 @@ include "header.php";
                     <div class="hero-slide">
                         <!-- Slider Image Start -->
                         <div class="hero-slider-image">
-                            <img src="images/resources/hero-banner-2.webp" alt="Commercial building construction and architectural elevation in Chennai">
+                            <img src="images/resources/hero-banner-2.webp" alt="Commercial building construction and architectural elevation in Chennai" width="1920" height="1280" loading="lazy" decoding="async">
                         </div>
                         <!-- Slider Image End -->
 
@@ -163,7 +164,7 @@ include "header.php";
                         <!-- About Image 1 Start -->
                         <div class="about-img-1">
                             <figure class="image-anime reveal">
-                                <img src="images/resources/sharp-3.png" alt="Turnkey commercial and residential building construction in Chennai">
+                                <img src="images/resources/sharp-3.webp" alt="Turnkey commercial and residential building construction in Chennai" width="1536" height="1024" loading="lazy" decoding="async">
                             </figure>
                         </div>
                         <!-- About Image 1 End -->
@@ -171,7 +172,7 @@ include "header.php";
                         <!-- About Image 2 Start -->
                         <div class="about-img-2">
                             <figure class="image-anime reveal">
-                                <img src="images/resources/sharp-4.png" alt="Interior architectural planning and residential construction in Chennai">
+                                <img src="images/resources/sharp-4.webp" alt="Interior architectural planning and residential construction in Chennai" width="1024" height="1024" loading="lazy" decoding="async">
                             </figure>
 
                             <!-- Feedback Counter Start -->
@@ -389,19 +390,19 @@ include "header.php";
         
             <div class="row justify-content-center align-items-center vendor-logos-row">
                 <div class="col-6 col-md-2 text-center">
-                    <img src="images/vendors/bhawani-logo.png" alt="Bhawani" class="img-fluid">
+                    <img src="images/vendors/bhawani-logo.png" alt="Bhawani" class="img-fluid" width="500" height="500" loading="lazy" decoding="async">
                 </div>
                 <div class="col-6 col-md-2 text-center">
-                    <img src="images/vendors/the-pearl-stone-logo.png" alt="The Pearl Stone" class="img-fluid">
+                    <img src="images/vendors/the-pearl-stone-logo.png" alt="The Pearl Stone" class="img-fluid" width="500" height="500" loading="lazy" decoding="async">
                 </div>
                 <div class="col-6 col-md-2 text-center">
-                    <img src="images/vendors/mahaveer-logo.png" alt="Mahaveer" class="img-fluid">
+                    <img src="images/vendors/mahaveer-logo.png" alt="Mahaveer" class="img-fluid" width="500" height="500" loading="lazy" decoding="async">
                 </div>
                 <div class="col-6 col-md-2 text-center">
-                    <img src="images/vendors/concrete-oem-logo.png" alt="Concrete OEM" class="img-fluid">
+                    <img src="images/vendors/concrete-oem-logo.png" alt="Concrete OEM" class="img-fluid" width="500" height="500" loading="lazy" decoding="async">
                 </div>
                 <div class="col-6 col-md-2 text-center">
-                    <img src="images/vendors/bathcafe-logo.png" alt="Bathcafe" class="img-fluid">
+                    <img src="images/vendors/bathcafe-logo.png" alt="Bathcafe" class="img-fluid" width="500" height="500" loading="lazy" decoding="async">
                 </div>
             </div>
         </div>
@@ -470,7 +471,7 @@ include "header.php";
                             <!-- Why Choose img 1 Start -->
                             <div class="why-choose-img-1">
                                 <figure class="image-anime reveal">
-                                    <img src="images/resources/sharp-5.png" alt="Construction planning and execution">
+                                    <img src="images/resources/sharp-5.webp" alt="Construction planning and execution" width="1536" height="1024" loading="lazy" decoding="async">
                                 </figure>
                             </div>
                             <!-- Why Choose img 1 End -->
@@ -478,7 +479,7 @@ include "header.php";
                             <!-- Why Choose img 2 Start -->
                             <div class="why-choose-img-2">
                                 <figure class="image-anime reveal">
-                                    <img src="images/resources/sharp-6.png" alt="Quality-focused building work">
+                                    <img src="images/resources/sharp-6.webp" alt="Quality-focused building work" width="1536" height="1024" loading="lazy" decoding="async">
                                 </figure>
                             </div>
                             <!-- Why Choose img 2 End -->
@@ -490,7 +491,7 @@ include "header.php";
                             <!-- Why Choose img 3 Start -->
                             <div class="why-choose-img-3">
                                 <figure class="image-anime reveal">
-                                    <img src="images/resources/sharp-7.png" alt="Modern structure by Sharp Associates">
+                                    <img src="images/resources/sharp-7.webp" alt="Modern structure by Sharp Associates" width="1536" height="1024" loading="lazy" decoding="async">
                                 </figure>
                             </div>
                             <!-- Why Choose img 3 End -->
@@ -498,7 +499,7 @@ include "header.php";
                             <!-- Why Choose img 4 Start -->
                             <div class="why-choose-img-4">
                                 <figure class="image-anime reveal">
-                                    <img src="images/resources/sharp-8.png" alt="Reliable project delivery by Sharp Associates">
+                                    <img src="images/resources/sharp-8.webp" alt="Reliable project delivery by Sharp Associates" width="1536" height="1024" loading="lazy" decoding="async">
                                 </figure>
                             </div>
                             <!-- Why Choose img 4 End -->
@@ -560,12 +561,12 @@ include "header.php";
                                 <div class="project-image">
                                     <div class="project-featured-image">
                                         <figure class="image-anime">
-                                            <img src="images/resources/sharp-1.png" alt="Residential project by Sharp Associates">
+                                            <img src="images/resources/sharp-1.webp" alt="Residential project by Sharp Associates" width="1536" height="1024" loading="lazy" decoding="async">
                                         </figure>
                                     </div>
                                 
                                     <div class="project-btn">
-                                        <a href="our-work.php" aria-label="View project details in Our Works gallery"><img src="images/arrow-white.svg" alt="View project details"></a>
+                                        <a href="our-work.php" aria-label="View project details in Our Works gallery"><img src="images/arrow-white.svg" alt="View project details" width="20" height="20" loading="lazy"></a>
                                     </div>
                                 </div>     
     
@@ -580,12 +581,12 @@ include "header.php";
                                 <div class="project-image">
                                     <div class="project-featured-image">
                                         <figure class="image-anime">
-                                            <img src="images/resources/sharp-10.png" alt="Luxury home project by Sharp Associates">
+                                            <img src="images/resources/sharp-10.webp" alt="Luxury home project by Sharp Associates" width="1536" height="1024" loading="lazy" decoding="async">
                                         </figure>
                                     </div>
                                 
                                     <div class="project-btn">
-                                        <a href="our-work.php" aria-label="View project details in Our Works gallery"><img src="images/arrow-white.svg" alt="View project details"></a>
+                                        <a href="our-work.php" aria-label="View project details in Our Works gallery"><img src="images/arrow-white.svg" alt="View project details" width="20" height="20" loading="lazy"></a>
                                     </div>
                                 </div>     
 
@@ -600,12 +601,12 @@ include "header.php";
                                 <div class="project-image">
                                     <div class="project-featured-image">
                                         <figure class="image-anime">
-                                            <img src="images/resources/sharp-11.jpg" alt="Outdoor and landscape project by Sharp Associates">
+                                            <img src="images/resources/sharp-11.jpg" alt="Outdoor and landscape project by Sharp Associates" width="1200" height="960" loading="lazy" decoding="async">
                                         </figure>
                                     </div>
                                 
                                     <div class="project-btn">
-                                        <a href="our-work.php" aria-label="View project details in Our Works gallery"><img src="images/arrow-white.svg" alt="View project details"></a>
+                                        <a href="our-work.php" aria-label="View project details in Our Works gallery"><img src="images/arrow-white.svg" alt="View project details" width="20" height="20" loading="lazy"></a>
                                     </div>
                                 </div>     
 
@@ -621,12 +622,12 @@ include "header.php";
                                 <div class="project-image">
                                     <div class="project-featured-image">
                                         <figure class="image-anime">
-                                            <img src="images/resources/sharp-4.png" alt="Outdoor and landscape project by Sharp Associates">
+                                            <img src="images/resources/sharp-4.webp" alt="Outdoor and landscape project by Sharp Associates" width="1024" height="1024" loading="lazy" decoding="async">
                                         </figure>
                                     </div>
                                 
                                     <div class="project-btn">
-                                        <a href="our-work.php" aria-label="View project details in Our Works gallery"><img src="images/arrow-white.svg" alt="View project details"></a>
+                                        <a href="our-work.php" aria-label="View project details in Our Works gallery"><img src="images/arrow-white.svg" alt="View project details" width="20" height="20" loading="lazy"></a>
                                     </div>
                                 </div>     
 
@@ -651,12 +652,12 @@ include "header.php";
                                 <div class="project-image">
                                     <div class="project-featured-image">
                                         <figure class="image-anime">
-                                            <img src="images/resources/sharp-14.jpg" alt="Modern design project by Sharp Associates">
+                                            <img src="images/resources/sharp-14.jpg" alt="Modern design project by Sharp Associates" width="1600" height="900" loading="lazy" decoding="async">
                                         </figure>
                                     </div>
                                 
                                     <div class="project-btn">
-                                        <a href="our-work.php" aria-label="View project details in Our Works gallery"><img src="images/arrow-white.svg" alt="View project details"></a>
+                                        <a href="our-work.php" aria-label="View project details in Our Works gallery"><img src="images/arrow-white.svg" alt="View project details" width="20" height="20" loading="lazy"></a>
                                     </div>
                                 </div>     
 
@@ -672,12 +673,12 @@ include "header.php";
                                 <div class="project-image">
                                     <div class="project-featured-image">
                                         <figure class="image-anime">
-                                            <img src="images/resources/sharp-17.jpg" alt="Modern design project by Sharp Associates">
+                                            <img src="images/resources/sharp-17.jpg" alt="Modern design project by Sharp Associates" width="1536" height="850" loading="lazy" decoding="async">
                                         </figure>
                                     </div>
                                 
                                     <div class="project-btn">
-                                        <a href="our-work.php" aria-label="View project details in Our Works gallery"><img src="images/arrow-white.svg" alt="View project details"></a>
+                                        <a href="our-work.php" aria-label="View project details in Our Works gallery"><img src="images/arrow-white.svg" alt="View project details" width="20" height="20" loading="lazy"></a>
                                     </div>
                                 </div>     
 
@@ -814,7 +815,7 @@ include "header.php";
                         <div class="post-featured-image">
                             <figure>
                                 <a href="blog-1.php" class="image-anime" data-cursor-text="View">
-                                    <img src="images/resources/sharp-6.png" alt="Building a better tomorrow with smarter construction practices">
+                                    <img src="images/resources/sharp-6.webp" alt="Building a better tomorrow with smarter construction practices" width="1536" height="1024" loading="lazy" decoding="async">
                                 </a>
                             </figure>
                         </div>
@@ -836,7 +837,7 @@ include "header.php";
                         <div class="post-featured-image">
                             <figure>
                                 <a href="blog-2.php" class="image-anime" data-cursor-text="View">
-                                    <img src="images/resources/sharp-7.png" alt="Today's smart buildings">
+                                    <img src="images/resources/sharp-7.webp" alt="Today's smart buildings" width="1536" height="1024" loading="lazy" decoding="async">
                                 </a>
                             </figure>
                         </div>
@@ -858,7 +859,7 @@ include "header.php";
                         <div class="post-featured-image">
                             <figure>
                                 <a href="blog-3.php" class="image-anime" data-cursor-text="View">
-                                    <img src="images/resources/sharp-8.png" alt="Building for tomorrow sustainable construction">
+                                    <img src="images/resources/sharp-8.webp" alt="Building for tomorrow sustainable construction" width="1536" height="1024" loading="lazy" decoding="async">
                                 </a>
                             </figure>
                         </div>
