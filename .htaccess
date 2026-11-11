@@ -26,6 +26,9 @@ Options -Indexes
 
     # Block direct PHP execution inside uploads directory
     RewriteRule ^uploads/.*\.php$ - [F,L,NC]
+
+    # Block direct HTTP access to backup and archive directories
+    RewriteRule ^_backup_.* - [F,L,NC]
 </IfModule>
 
 # 3. Security Hardening
@@ -40,8 +43,8 @@ Options -Indexes
     </IfModule>
 </FilesMatch>
 
-# Block access to sensitive source/executable files
-<FilesMatch "\.(bat|log|sql|md)$">
+# Block access to sensitive source, backup, and configuration files
+<FilesMatch "\.(bat|log|sql|md|bak|config|env|ini|yml|yaml|jsonl)$">
     <IfModule mod_authz_core.c>
         Require all denied
     </IfModule>

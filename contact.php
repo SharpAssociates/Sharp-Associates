@@ -1,7 +1,6 @@
-
 <?php
-$page_title = "Contact Construction Contractors in Chennai | Sharp Associates";
-$page_description = "Contact Sharp Associates in Chennai for residential construction, architectural planning, and joint venture inquiries. Call +91 95000 36132 or visit our Agaram office.";
+$page_title = "Contact Building Contractors in Chennai | Sharp Associates";
+$page_description = "Looking for building contractors in Chennai? Contact Sharp Associates to discuss residential or commercial construction, project planning and your requirements.";
 $canonical_url = "https://sharpassociates.in/contact.php";
 $og_image = "https://sharpassociates.in/images/resources/sharp-8.png";
 $og_type = "website";
@@ -9,14 +8,15 @@ $og_type = "website";
 $schema_data = [
     "@context" => "https://schema.org",
     "@type" => "ContactPage",
-    "name" => "Contact Sharp Associates",
+    "name" => "Construction Company Contact in Chennai - Sharp Associates",
     "description" => $page_description,
     "url" => $canonical_url,
     "mainEntity" => [
         "@type" => "GeneralContractor",
+        "@id" => "https://sharpassociates.in/#organization",
         "name" => "Sharp Associates",
         "url" => "https://sharpassociates.in/",
-        "telephone" => "+91-95000-36132",
+        "telephone" => "+919500036132",
         "email" => "maaran@ysa-india.com",
         "areaServed" => [
             [
@@ -30,7 +30,7 @@ $schema_data = [
         ],
         "address" => [
             "@type" => "PostalAddress",
-            "streetAddress" => "Old No. 29, New No: 28, Loco Works Rd, Agaram",
+            "streetAddress" => "Old No. 29, New No. 28, Loco Works Road, Agaram",
             "addressLocality" => "Chennai",
             "addressRegion" => "Tamil Nadu",
             "postalCode" => "600082",
@@ -48,7 +48,7 @@ include "header.php";
 				<div class="col-lg-12">
 					<!-- Page Header Box Start -->
 					<div class="page-header-box">
-						<h1 class="text-anime-style-2" data-cursor="-opaque">Contact Our Construction Office in Chennai</h1>
+						<h1 class="text-anime-style-2" data-cursor="-opaque">Construction Company Contact in Chennai</h1>
 						
 					</div>
 					<!-- Page Header Box End -->
@@ -78,8 +78,8 @@ include "header.php";
                         <!-- Section Title Start -->
                         <div class="section-title">
                             <h3 class="wow fadeInUp">contact form</h3>
-                            <h2 class="text-anime-style-2" data-cursor="-opaque">Request a Construction Consultation & <span>Project Estimate</span></h2>
-                            <p class="wow fadeInUp" data-wow-delay="0.2s">Your email address will not be published. Required fields are marked *</p>
+                            <h2 class="text-anime-style-2" data-cursor="-opaque">Contact Building Contractors for <span>Construction Services in Chennai</span></h2>
+                            <p class="wow fadeInUp" data-wow-delay="0.2s">Connect with our civil engineers to discuss residential construction, commercial developments, or joint ventures. Required fields are marked *</p>
                         </div>
                         <!-- Section Title End -->
 
@@ -188,7 +188,7 @@ include "header.php";
                             <!-- Contact Info Content Start -->
                             <div class="contact-info-content">
                                 <h3>Our Address</h3>
-                                <p>Old No. 29,New No:28, Loco Works Rd, Agaram, Chennai, 600 082, India.</p>
+                                <p>Old No. 29, New No. 28, Loco Works Road, Agaram, Chennai – 600082, India.</p>
                             </div>
                             <!-- Contact Info Content End -->
                         </div>

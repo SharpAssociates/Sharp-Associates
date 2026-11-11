@@ -1,9 +1,106 @@
-# robots.txt for Sharp Associates (https://sharpassociates.in)
+# ==============================================================================
+# Sharp Associates - Official robots.txt
+# Website: https://sharpassociates.in/
+# Last Updated: 2026-11-11
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# 1. PRIMARY SEARCH ENGINE CRAWLERS
+# Allow full crawling for indexation, organic search, and snippet generation
+# ------------------------------------------------------------------------------
+User-agent: Googlebot
+User-agent: Googlebot-Image
+Allow: /
+Disallow: /uploads/
+Disallow: /_backup_phase1/
+Disallow: /_backup_phase2/
+
+User-agent: Bingbot
+Allow: /
+Disallow: /uploads/
+Disallow: /_backup_phase1/
+Disallow: /_backup_phase2/
+
+# ------------------------------------------------------------------------------
+# 2. AI SEARCH & REAL-TIME RETRIEVAL ENGINES
+# Allow search-specific AI agents to index content and provide source citations
+# ------------------------------------------------------------------------------
+# OpenAI SearchGPT & ChatGPT Search (Real-time search index & source attribution)
+User-agent: OAI-SearchBot
+Allow: /
+Disallow: /uploads/
+
+# ChatGPT User-Initiated Web Browsing (Direct user query link resolution)
+User-agent: ChatGPT-User
+Allow: /
+Disallow: /uploads/
+
+# Perplexity AI (Conversational search indexing & citation generation)
+User-agent: PerplexityBot
+Allow: /
+Disallow: /uploads/
+
+# Anthropic Claude Search (Live search grounding & source retrieval)
+User-agent: Claude-SearchBot
+Allow: /
+Disallow: /uploads/
+
+# ------------------------------------------------------------------------------
+# 3. AI FOUNDATION MODEL TRAINING CRAWLERS
+# Governed access for AI model training bots
+# ------------------------------------------------------------------------------
+# OpenAI Foundation Model Training Crawler
+User-agent: GPTBot
+Allow: /
+Disallow: /uploads/
+Disallow: /_backup_phase1/
+Disallow: /_backup_phase2/
+
+# Anthropic Claude Model Training Crawler
+User-agent: ClaudeBot
+Allow: /
+Disallow: /uploads/
+Disallow: /_backup_phase1/
+Disallow: /_backup_phase2/
+
+# Google-Extended (Google Gemini & Vertex AI Foundation Model Training - distinct from Googlebot)
+User-agent: Google-Extended
+Allow: /
+Disallow: /uploads/
+Disallow: /_backup_phase1/
+Disallow: /_backup_phase2/
+
+# ------------------------------------------------------------------------------
+# 4. HIGH-VOLUME THIRD-PARTY DATA SCRAPERS
+# Disallowed to reduce server load and protect proprietary construction content
+# ------------------------------------------------------------------------------
+User-agent: CCBot
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+# ------------------------------------------------------------------------------
+# 5. DEFAULT DIRECTIVES FOR ALL OTHER COMPLIANT USER-AGENTS
+# ------------------------------------------------------------------------------
 User-agent: *
 Allow: /
 
-# Disallow crawling of uploaded customer documents and media
-Disallow: /uploads/
+# Explicitly ensure styles, scripts, and media are crawlable for page rendering
+Allow: /*.css$
+Allow: /*.js$
+Allow: /*.webp$
+Allow: /*.png$
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.svg$
 
-# Sitemap location
+# Protect customer uploads and archival folders
+Disallow: /uploads/
+Disallow: /_backup_phase1/
+Disallow: /_backup_phase2/
+
+# ------------------------------------------------------------------------------
+# 6. SITEMAP LOCATION
+# ------------------------------------------------------------------------------
 Sitemap: https://sharpassociates.in/sitemap.xml

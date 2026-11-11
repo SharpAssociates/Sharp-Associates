@@ -157,22 +157,22 @@ if (($_SERVER["REQUEST_METHOD"] ?? '') === "POST") {
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Construction Consultation & Free Quote in Chennai | Sharp Associates</title>
-	<meta name="description" content="Request a free construction consultation in Chennai with Sharp Associates. Expert civil contractors for residential buildings, commercial spaces, and joint ventures.">
+	<title>Construction Consultation in Chennai | Sharp Associates</title>
+	<meta name="description" content="Request a construction consultation in Chennai with Sharp Associates. Get expert guidance and project planning for residential or commercial building work.">
 	<link rel="canonical" href="https://sharpassociates.in/landing.php">
 
 	<!-- Open Graph / Facebook -->
 	<meta property="og:type" content="website">
 	<meta property="og:site_name" content="Sharp Associates">
-	<meta property="og:title" content="Construction Consultation & Free Quote in Chennai | Sharp Associates">
-	<meta property="og:description" content="Request a free construction consultation in Chennai with Sharp Associates. Expert civil contractors for residential buildings, commercial spaces, and joint ventures.">
+	<meta property="og:title" content="Construction Consultation in Chennai | Sharp Associates">
+	<meta property="og:description" content="Request a construction consultation in Chennai with Sharp Associates. Get expert guidance and project planning for residential or commercial building work.">
 	<meta property="og:url" content="https://sharpassociates.in/landing.php">
 	<meta property="og:image" content="https://sharpassociates.in/images/resources/hero-banner-1.webp">
 
 	<!-- Twitter Card -->
 	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:title" content="Construction Consultation & Free Quote in Chennai | Sharp Associates">
-	<meta name="twitter:description" content="Request a free construction consultation in Chennai with Sharp Associates. Expert civil contractors for residential buildings, commercial spaces, and joint ventures.">
+	<meta name="twitter:title" content="Construction Consultation in Chennai | Sharp Associates">
+	<meta name="twitter:description" content="Request a construction consultation in Chennai with Sharp Associates. Get expert guidance and project planning for residential or commercial building work.">
 	<meta name="twitter:image" content="https://sharpassociates.in/images/resources/hero-banner-1.webp">
 
 	<!-- Favicon Icon -->

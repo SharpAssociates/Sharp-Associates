@@ -1,6 +1,6 @@
 <?php
-$page_title = "Civil Construction Company in Chennai | About Sharp Associates";
-$page_description = "Learn about Sharp Associates, a premier civil construction company in Chennai with 22+ years of experience in residential, commercial, and joint venture building projects.";
+$page_title = "Construction Company Profile in Chennai | Sharp Associates";
+$page_description = "Learn about Sharp Associates, a Chennai construction company delivering residential and commercial building projects through careful planning and coordination.";
 $canonical_url = "https://sharpassociates.in/about.php";
 $og_image = "https://sharpassociates.in/images/resources/sharp-9.png";
 $og_type = "website";
@@ -8,15 +8,16 @@ $og_type = "website";
 $schema_data = [
     "@context" => "https://schema.org",
     "@type" => "AboutPage",
-    "name" => "About Sharp Associates",
+    "name" => "About Sharp Associates - Construction Company Profile in Chennai",
     "description" => $page_description,
     "url" => $canonical_url,
     "mainEntity" => [
         "@type" => "GeneralContractor",
+        "@id" => "https://sharpassociates.in/#organization",
         "name" => "Sharp Associates",
         "url" => "https://sharpassociates.in/",
         "logo" => "https://sharpassociates.in/images/resources/sa-logo.webp",
-        "telephone" => "+91-95000-36132",
+        "telephone" => "+919500036132",
         "email" => "maaran@ysa-india.com",
         "areaServed" => [
             [
@@ -30,7 +31,7 @@ $schema_data = [
         ],
         "address" => [
             "@type" => "PostalAddress",
-            "streetAddress" => "Old No. 29, New No: 28, Loco Works Rd, Agaram",
+            "streetAddress" => "Old No. 29, New No. 28, Loco Works Road, Agaram",
             "addressLocality" => "Chennai",
             "addressRegion" => "Tamil Nadu",
             "postalCode" => "600082",
@@ -49,7 +50,7 @@ include "header.php";
 				<div class="col-lg-12">
 					<!-- Page Header Box Start -->
 					<div class="page-header-box">
-						<h1 class="text-anime-style-2" data-cursor="-opaque">About Our Construction Company in Chennai</h1>
+						<h1 class="text-anime-style-2" data-cursor="-opaque">Construction Company Profile in Chennai &ndash; Sharp Associates</h1>
 						
 					</div>
 					<!-- Page Header Box End -->
@@ -68,7 +69,7 @@ include "header.php";
                         <!-- About Image 1 Start -->
                         <div class="about-img-1">
                             <figure class="image-anime reveal">
-                                <img src="images/resources/sharp-9.webp" alt="Civil construction engineers and project managers in Chennai" width="1536" height="1024" loading="lazy" decoding="async">
+                                <img src="images/resources/sharp-9.webp" alt="Experienced construction contractors and civil engineers at Sharp Associates Chennai" width="1536" height="1024" loading="lazy" decoding="async">
                             </figure>
                         </div>
                         <!-- About Image 1 End -->
@@ -76,7 +77,7 @@ include "header.php";
                         <!-- About Image 2 Start -->
                         <div class="about-img-2">
                             <figure class="image-anime reveal">
-                                <img src="images/resources/sharp-10.webp" alt="Structural foundation and civil construction site work in Chennai" width="1536" height="1024" loading="lazy" decoding="async">
+                                <img src="images/resources/sharp-10.webp" alt="Civil construction foundation and reinforced concrete framing in Chennai" width="1536" height="1024" loading="lazy" decoding="async">
                             </figure>
 
                            
@@ -94,9 +95,9 @@ include "header.php";
                         <!-- Section Title Start -->
                         <div class="section-title">
                             <h3 class="wow fadeInUp">Who We Are</h3>
-                            <h2 class="text-anime-style-2" data-cursor="-opaque">Building Strong Foundations with <span>Expertise and Trust</span></h2>
-                            <p class="wow fadeInUp" data-wow-delay="0.2s">SHARP ASSOCIATES is a professionally driven construction and asset development company committed to delivering high-quality residential and commercial projects. With strong expertise in civil construction, architectural planning, and infrastructure development, we focus on creating durable, functional, and modern spaces that meet evolving industry standards.</p>
-                             <p class="wow fadeInUp" data-wow-delay="0.2s">Our approach combines technical excellence with a client-first mindset, ensuring every project is executed with precision, transparency, and efficiency. From concept and approvals to final handover, we provide end-to-end solutions that reflect reliability, innovation, and long-term value. View our <a href="our-work.php" style="color: inherit; text-decoration: underline;">construction project portfolio</a> or <a href="contact.php" style="color: inherit; text-decoration: underline;">contact our engineering team</a> to discuss your upcoming project.</p>
+                            <h2 class="text-anime-style-2" data-cursor="-opaque">Experienced Construction Contractors <span>with 22+ Years of Trust</span></h2>
+                            <p class="wow fadeInUp" data-wow-delay="0.2s">SHARP ASSOCIATES is a trusted civil construction company in Chennai with over 22 years of hands-on industry leadership. Specializing in <a href="end-to-end-construction-chennai.php" style="color: inherit; text-decoration: underline;">turnkey residential building construction</a>, commercial developments, and <a href="joint-venture-projects-chennai.php" style="color: inherit; text-decoration: underline;">joint venture partnerships</a>, our team delivers structures engineered for lasting strength and <a href="architectural-design-chennai.php" style="color: inherit; text-decoration: underline;">architectural elegance</a>.</p>
+                             <p class="wow fadeInUp" data-wow-delay="0.2s">Our experienced <a href="contracting-services-chennai.php" style="color: inherit; text-decoration: underline;">building contractors in Chennai</a> combine rigorous technical standards with client-centered communication, ensuring smooth execution from soil testing and <a href="building-plan-approvals-chennai.php" style="color: inherit; text-decoration: underline;">municipal plan approvals</a> to final occupancy handover. Explore our <a href="our-work.php" style="color: inherit; text-decoration: underline;">construction projects in Chennai</a> or <a href="contact.php" style="color: inherit; text-decoration: underline;">contact our building contractors</a> for an initial project consultation.</p>
                        
                         </div>
                         <!-- Section Title End -->
@@ -177,7 +178,7 @@ include "header.php";
                     <!-- Section Title Start -->
                     <div class="section-title dark-section">
                         <h3 class="wow fadeInUp">vision mission</h3>
-                        <h2 class="text-anime-style-2" data-cursor="-opaque">Vision & Mission That Drive <span> Our Excellence</span></h2>
+                        <h2 class="text-anime-style-2" data-cursor="-opaque">Vision &amp; Mission Guiding Our <span>Construction Standards</span></h2>
                     </div>
                     <!-- Section Title End -->
                 </div>
@@ -199,7 +200,7 @@ include "header.php";
                         <!-- Vision Mission Item Start -->
                         <div class="vision-mission-item wow fadeInUp">
                             <div class="icon-box">
-                                <img src="images/icon-our-vision.svg" alt="Sharp Associates Vision">
+                                <img src="images/icon-our-vision.svg" alt="Sharp Associates Vision" width="50" height="50">
                             </div>
                             <div class="vision-mission-content">
                                 <h3>Our vision</h3>
@@ -211,7 +212,7 @@ include "header.php";
                         <!-- Vision Mission Item Start -->
                         <div class="vision-mission-item wow fadeInUp" data-wow-delay="0.2s">
                             <div class="icon-box">
-                                <img src="images/icon-our-mission.svg" alt="Sharp Associates Mission">
+                                <img src="images/icon-our-mission.svg" alt="Sharp Associates Mission" width="50" height="50">
                             </div>
                             <div class="vision-mission-content">
                                 <h3>Our Mission</h3>
@@ -466,7 +467,7 @@ include "header.php";
                         <!-- Section Title Start -->
                         <div class="section-title">
                             <h3 class="wow fadeInUp">client testimonials</h3>
-                            <h2 class="text-anime-style-2" data-cursor="-opaque">Trusted by thousand of <span>people & companies.</span></h2>
+                            <h2 class="text-anime-style-2" data-cursor="-opaque">Trusted by Homeowners and Businesses <span>Across Chennai</span></h2>
                         </div>
                         <!-- Section Title End -->
 
@@ -492,7 +493,7 @@ include "header.php";
                                             <div class="testimonial-body">
                                                 <div class="author-image">
                                                     <figure class="image-anime">
-                                                        <img src="images/resources/sharp-3.webp" alt="Sharp Associates client project" width="1536" height="1024" loading="lazy" decoding="async">
+                                                        <img src="images/resources/sharp-3.webp" alt="Completed residential building construction in Chennai - Karthikeyan project" width="1536" height="1024" loading="lazy" decoding="async">
                                                     </figure>
                                                 </div>            
                                                 <div class="author-content">
@@ -522,7 +523,7 @@ include "header.php";
                                             <div class="testimonial-body">
                                                 <div class="author-image">
                                                     <figure class="image-anime">
-                                                        <img src="images/resources/sharp-4.webp" alt="Sharp Associates client project" width="1024" height="1024" loading="lazy" decoding="async">
+                                                        <img src="images/resources/sharp-4.webp" alt="Commercial building structure engineered by Sharp Associates - Munirathinam project" width="1024" height="1024" loading="lazy" decoding="async">
                                                     </figure>
                                                 </div>            
                                                 <div class="author-content">
@@ -552,7 +553,7 @@ include "header.php";
                                             <div class="testimonial-body">
                                                 <div class="author-image">
                                                     <figure class="image-anime">
-                                                        <img src="images/resources/sharp-5.webp" alt="Sharp Associates client project" width="1536" height="1024" loading="lazy" decoding="async">
+                                                        <img src="images/resources/sharp-5.webp" alt="Architectural villa exterior and landscape civil development - Geetha project" width="1536" height="1024" loading="lazy" decoding="async">
                                                     </figure>
                                                 </div>            
                                                 <div class="author-content">

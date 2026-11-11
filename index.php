@@ -1,6 +1,6 @@
 <?php
-$page_title = "Building Construction Contractors in Chennai | Sharp Associates";
-$page_description = "Trusted building construction contractors in Chennai. Sharp Associates delivers turnkey residential & commercial construction, architectural design, and joint venture developments.";
+$page_title = "Construction Company in Chennai | Sharp Associates";
+$page_description = "Looking for a construction company in Chennai? Sharp Associates handles residential and commercial building projects, from planning and design to completion.";
 $canonical_url = "https://sharpassociates.in/";
 $preload_lcp_image = "images/resources/hero-banner-1.webp";
 $og_image = "https://sharpassociates.in/images/resources/hero-banner-1.webp";
@@ -14,7 +14,7 @@ $schema_data = [
             "@id" => "https://sharpassociates.in/#website",
             "url" => "https://sharpassociates.in/",
             "name" => "Sharp Associates",
-            "description" => "Residential and Commercial Construction Solutions in Chennai",
+            "description" => "Leading Construction Company and Civil Building Contractors in Chennai",
             "inLanguage" => "en-US"
         ],
         [
@@ -24,8 +24,8 @@ $schema_data = [
             "url" => "https://sharpassociates.in/",
             "logo" => "https://sharpassociates.in/images/resources/sa-logo.webp",
             "image" => "https://sharpassociates.in/images/resources/hero-banner-1.webp",
-            "description" => "Professional building construction contractors, civil engineering, architectural planning, joint venture development, and turnkey interior solutions based in Chennai.",
-            "telephone" => "+91-95000-36132",
+            "description" => "Trusted construction company in Chennai specializing in turnkey residential building construction, commercial developments, architectural design, joint ventures, and civil contracting.",
+            "telephone" => "+919500036132",
             "email" => "maaran@ysa-india.com",
             "priceRange" => "$$",
             "areaServed" => [
@@ -50,7 +50,7 @@ $schema_data = [
             ],
             "address" => [
                 "@type" => "PostalAddress",
-                "streetAddress" => "Old No. 29, New No: 28, Loco Works Rd, Agaram",
+                "streetAddress" => "Old No. 29, New No. 28, Loco Works Road, Agaram",
                 "addressLocality" => "Chennai",
                 "addressRegion" => "Tamil Nadu",
                 "postalCode" => "600082",
@@ -61,6 +61,7 @@ $schema_data = [
                 "latitude" => 13.108587,
                 "longitude" => 80.231029
             ],
+            "hasMap" => "https://maps.google.com/?cid=10239376131863021814",
             "sameAs" => [
                 "https://www.facebook.com/profile.php?id=61587899631466",
                 "https://www.instagram.com/sharp.associates_official"
@@ -92,8 +93,8 @@ include "header.php";
                                         <!-- Section Title Start -->
                                         <div class="section-title">
                                             <h3 class="wow fadeInUp">SHARP ASSOCIATES</h3>
-                                            <h1 class="text-anime-style-2" data-cursor="-opaque">Building Construction & <span>Architectural Development</span> in Chennai</h1>
-                                            <p class="wow fadeInUp" data-wow-delay="0.2s">Reliable construction solutions for residential and commercial projects, delivered with precision, engineering quality, and trust.</p>
+                                            <h1 class="text-anime-style-2" data-cursor="-opaque">Construction Company in Chennai &amp; <span>Civil Engineering Excellence</span></h1>
+                                            <p class="wow fadeInUp" data-wow-delay="0.2s">Reliable construction company in Chennai delivering turnkey residential, commercial, and civil engineering projects with precision and 22+ years of trust.</p>
                                         </div>
                                         <!-- Section Title End -->
                 
@@ -129,8 +130,8 @@ include "header.php";
                                         <!-- Section Title Start -->
                                         <div class="section-title">
                                             <h3 class="wow fadeInUp">SHARP ASSOCIATES</h3>
-                                            <h2 class="text-anime-style-2" data-cursor="-opaque">Turnkey Civil Construction & <span>Engineering Excellence</span></h2>
-                                            <p class="wow fadeInUp" data-wow-delay="0.2s">Expert civil construction, smart architectural planning, and timely project delivery across Chennai.</p>
+                                            <h2 class="text-anime-style-2" data-cursor="-opaque">Civil Construction Company in Chennai &amp; <span>Building Contractors</span></h2>
+                                            <p class="wow fadeInUp" data-wow-delay="0.2s">Turnkey building contractors in Chennai specializing in structural execution, architectural planning, and joint venture property developments.</p>
                                         </div>
                                         <!-- Section Title End -->
                 
@@ -200,9 +201,9 @@ include "header.php";
                         <!-- Section Title Start -->
                         <div class="section-title">
                             <h3 class="wow fadeInUp">About SHARP ASSOCIATES</h3>
-                            <h2 class="text-anime-style-2" data-cursor="-opaque">Building Trust Through Quality  <span>Construction in Chennai</span></h2>
-                            <p class="wow fadeInUp" data-wow-delay="0.2s">At SHARP ASSOCIATES, we redefine construction by combining engineering expertise with a commitment to excellence. Specializing in residential and commercial development, we create thoughtfully designed spaces that reflect quality, durability, and modern standards across Chennai. Explore our <a href="our-work.php" style="color: inherit; text-decoration: underline;">completed construction projects</a> to see our craftsmanship in action.</p>
-                            <p class="wow fadeInUp" data-wow-delay="0.2s">With a team of experienced professionals and a client-first approach, we ensure seamless project execution from concept to completion. Our focus on precision, transparency, and timely delivery allows us to build not just structures, but long-term relationships based on trust and reliability.</p>
+                            <h2 class="text-anime-style-2" data-cursor="-opaque">Civil Construction Company in Chennai <span>Building Trust Through Quality</span></h2>
+                            <p class="wow fadeInUp" data-wow-delay="0.2s">At SHARP ASSOCIATES, we redefine building contracting by combining civil engineering expertise with an uncompromising commitment to structural quality. Specializing in residential and commercial construction, we create thoughtfully designed spaces engineered to withstand Chennai’s coastal climate and urban requirements. Explore our <a href="our-work.php" style="color: inherit; text-decoration: underline;">completed construction projects</a> to inspect our craftsmanship in action.</p>
+                            <p class="wow fadeInUp" data-wow-delay="0.2s">Backed by over 22 years of hands-on site leadership, our experienced construction contractors ensure complete transparency, stringent material testing, and punctual project handovers. Learn more in our <a href="about.php" style="color: inherit; text-decoration: underline;">construction company profile</a>, or reach out to our team for a personalized site consultation.</p>
                        
                         </div>
                         <!-- Section Title End -->
@@ -259,14 +260,14 @@ include "header.php";
 
 
  <!-- our services-->
-    <div class="how-we-work">
+    <div class="how-we-work" id="services">
         <div class="container">
             <div class="row section-row align-items-center">
                 <div class="col-lg-6">
                     <!-- Section Title Start -->
                     <div class="section-title dark-section">
                         <h3 class="wow fadeInUp">Our Services</h3>
-                        <h2 class="text-anime-style-2" data-cursor="-opaque">From concept to completion in<span> our work</span></h2>
+                        <h2 class="text-anime-style-2" data-cursor="-opaque">Comprehensive Construction Services from<span> Concept to Handover</span></h2>
                     </div>
                     <!-- Section Title End -->
                 </div>
@@ -274,7 +275,7 @@ include "header.php";
                 <div class="col-lg-6">
                     <!-- Section Title Content Start -->
                     <div class="section-title-content dark-section">
-                        <p class="wow fadeInUp" data-wow-delay="0.2s">Our dedicated team delivers every project with exceptional workmanship, ensuring completion on time, within budget, and beyond expectations.</p>
+                        <p class="wow fadeInUp" data-wow-delay="0.2s">Our civil building contractors manage every phase of residential and commercial development—from architectural design and plan approvals to turnkey construction and interior handover.</p>
                     </div>
                     <!-- Section Title Content End -->
                 </div>
@@ -289,8 +290,8 @@ include "header.php";
                                 <i class="fa-solid fa-helmet-safety"></i>
                             </div>
                             <div class="how-we-work-content">
-                                <h3>Contracting Services</h3>
-                                <p>Complete construction solutions executed with precision, quality materials, and expert supervision.</p>
+                                <h3><a href="contracting-services-chennai.php" style="color: inherit;">Contracting Services</a></h3>
+                                <p>Complete construction solutions executed with precision, quality materials, and expert supervision. <a href="contracting-services-chennai.php" style="color: var(--accent-color); font-weight: 500; font-size: 14px; text-decoration: underline;">Explore Service &rarr;</a></p>
                             </div>
                         </div>
 
@@ -299,8 +300,8 @@ include "header.php";
                                 <i class="fa-solid fa-handshake"></i>
                             </div>
                             <div class="how-we-work-content">
-                                <h3>Joint Venture Projects</h3>
-                                <p>Collaborative development opportunities that maximize land value and ensure profitable outcomes.</p>
+                                <h3><a href="joint-venture-projects-chennai.php" style="color: inherit;">Joint Venture Projects</a></h3>
+                                <p>Collaborative development opportunities that maximize land value and ensure profitable outcomes. <a href="joint-venture-projects-chennai.php" style="color: var(--accent-color); font-weight: 500; font-size: 14px; text-decoration: underline;">Explore Service &rarr;</a></p>
                             </div>
                         </div>
 
@@ -309,8 +310,8 @@ include "header.php";
                                 <i class="fa-solid fa-couch"></i>
                             </div>
                             <div class="how-we-work-content">
-                                <h3>Interior Solutions</h3>
-                                <p>Functional and aesthetic interior designs tailored to enhance comfort, style, and usability.</p>
+                                <h3><a href="interior-solutions-chennai.php" style="color: inherit;">Interior Solutions</a></h3>
+                                <p>Functional and aesthetic interior designs tailored to enhance comfort, style, and usability. <a href="interior-solutions-chennai.php" style="color: var(--accent-color); font-weight: 500; font-size: 14px; text-decoration: underline;">Explore Service &rarr;</a></p>
                             </div>
                         </div>
 
@@ -319,8 +320,8 @@ include "header.php";
                                 <i class="fa-solid fa-compass-drafting"></i>
                             </div>
                             <div class="how-we-work-content">
-                                <h3>Architectural Design</h3>
-                                <p>Innovative and practical designs that align with modern standards and structural efficiency.</p>
+                                <h3><a href="architectural-design-chennai.php" style="color: inherit;">Architectural Design</a></h3>
+                                <p>Innovative and practical designs that align with modern standards and structural efficiency. <a href="architectural-design-chennai.php" style="color: var(--accent-color); font-weight: 500; font-size: 14px; text-decoration: underline;">Explore Service &rarr;</a></p>
                             </div>
                         </div>
 
@@ -329,8 +330,8 @@ include "header.php";
                                 <i class="fa-solid fa-compass"></i>
                             </div>
                             <div class="how-we-work-content">
-                                <h3>Vastu Planning</h3>
-                                <p>Space planning based on Vastu principles to create balanced and positive living environments.</p>
+                                <h3><a href="vastu-planning-chennai.php" style="color: inherit;">Vastu Planning</a></h3>
+                                <p>Space planning based on Vastu principles to create balanced and positive living environments. <a href="vastu-planning-chennai.php" style="color: var(--accent-color); font-weight: 500; font-size: 14px; text-decoration: underline;">Explore Service &rarr;</a></p>
                             </div>
                         </div>
 
@@ -339,8 +340,8 @@ include "header.php";
                                 <i class="fa-solid fa-diagram-project"></i>
                             </div>
                             <div class="how-we-work-content">
-                                <h3>End-to-End Construction</h3>
-                                <p>Seamless project execution from initial concept to final handover under one roof.</p>
+                                <h3><a href="end-to-end-construction-chennai.php" style="color: inherit;">End-to-End Construction</a></h3>
+                                <p>Seamless project execution from initial concept to final handover under one roof. <a href="end-to-end-construction-chennai.php" style="color: var(--accent-color); font-weight: 500; font-size: 14px; text-decoration: underline;">Explore Service &rarr;</a></p>
                             </div>
                         </div>
 
@@ -349,8 +350,8 @@ include "header.php";
                                 <i class="fa-solid fa-file-circle-check"></i>
                             </div>
                             <div class="how-we-work-content">
-                                <h3>Plan Approvals</h3>
-                                <p>Hassle-free assistance in securing government approvals and required documentation.</p>
+                                <h3><a href="building-plan-approvals-chennai.php" style="color: inherit;">Plan Approvals</a></h3>
+                                <p>Hassle-free assistance in securing government approvals and required documentation. <a href="building-plan-approvals-chennai.php" style="color: var(--accent-color); font-weight: 500; font-size: 14px; text-decoration: underline;">Explore Service &rarr;</a></p>
                             </div>
                         </div>
 
@@ -369,8 +370,8 @@ include "header.php";
                                 <i class="fa-solid fa-clipboard-check"></i>
                             </div>
                             <div class="how-we-work-content">
-                                <h3>Sanctions &amp; Assessments</h3>
-                                <p>Expert guidance in regulatory clearances, compliance, and property evaluations.</p>
+                                <h3><a href="building-sanctions-assessments-chennai.php" style="color: inherit;">Sanctions &amp; Assessments</a></h3>
+                                <p>Expert guidance in regulatory clearances, compliance, and property evaluations. <a href="building-sanctions-assessments-chennai.php" style="color: var(--accent-color); font-weight: 500; font-size: 14px; text-decoration: underline;">Explore Service &rarr;</a></p>
                             </div>
                         </div>
                     </div>
@@ -420,8 +421,8 @@ include "header.php";
                         <!-- Section Title Start -->
                         <div class="section-title">
                             <h3 class="wow fadeInUp">why trust us</h3>
-                            <h2 class="text-anime-style-2" data-cursor="-opaque">Dependable construction leadership <span>for every project</span></h2>
-                            <p class="wow fadeInUp" data-wow-delay="0.2s">We combine decades of execution experience, stringent quality controls, and transparent scheduling to keep every build on track and on budget.</p>
+                            <h2 class="text-anime-style-2" data-cursor="-opaque">Dependable Construction Contractors <span>for Every Project</span></h2>
+                            <p class="wow fadeInUp" data-wow-delay="0.2s">We combine decades of execution experience, stringent quality controls, and transparent scheduling to keep every build on track and on budget across Chennai.</p>
                         </div>
                         <!-- Section Title End -->
 
@@ -471,7 +472,7 @@ include "header.php";
                             <!-- Why Choose img 1 Start -->
                             <div class="why-choose-img-1">
                                 <figure class="image-anime reveal">
-                                    <img src="images/resources/sharp-5.webp" alt="Construction planning and execution" width="1536" height="1024" loading="lazy" decoding="async">
+                                    <img src="images/resources/sharp-5.webp" alt="Civil construction site engineering and structural column framing in Chennai" width="1536" height="1024" loading="lazy" decoding="async">
                                 </figure>
                             </div>
                             <!-- Why Choose img 1 End -->
@@ -479,7 +480,7 @@ include "header.php";
                             <!-- Why Choose img 2 Start -->
                             <div class="why-choose-img-2">
                                 <figure class="image-anime reveal">
-                                    <img src="images/resources/sharp-6.webp" alt="Quality-focused building work" width="1536" height="1024" loading="lazy" decoding="async">
+                                    <img src="images/resources/sharp-6.webp" alt="Precision building construction and structural reinforcement work by Sharp Associates" width="1536" height="1024" loading="lazy" decoding="async">
                                 </figure>
                             </div>
                             <!-- Why Choose img 2 End -->
@@ -491,7 +492,7 @@ include "header.php";
                             <!-- Why Choose img 3 Start -->
                             <div class="why-choose-img-3">
                                 <figure class="image-anime reveal">
-                                    <img src="images/resources/sharp-7.webp" alt="Modern structure by Sharp Associates" width="1536" height="1024" loading="lazy" decoding="async">
+                                    <img src="images/resources/sharp-7.webp" alt="Modern commercial building facade and architectural execution in Chennai" width="1536" height="1024" loading="lazy" decoding="async">
                                 </figure>
                             </div>
                             <!-- Why Choose img 3 End -->
@@ -499,7 +500,7 @@ include "header.php";
                             <!-- Why Choose img 4 Start -->
                             <div class="why-choose-img-4">
                                 <figure class="image-anime reveal">
-                                    <img src="images/resources/sharp-8.webp" alt="Reliable project delivery by Sharp Associates" width="1536" height="1024" loading="lazy" decoding="async">
+                                    <img src="images/resources/sharp-8.webp" alt="Completed residential building construction delivered on schedule in Chennai" width="1536" height="1024" loading="lazy" decoding="async">
                                 </figure>
                             </div>
                             <!-- Why Choose img 4 End -->
@@ -524,7 +525,7 @@ include "header.php";
                     <!-- Section Title Start -->
                     <div class="section-title">
                         <h3 class="wow fadeInUp">latest project</h3>
-                        <h2 class="text-anime-style-2" data-cursor="-opaque">Creative projects that define<span> our style</span></h2>
+                        <h2 class="text-anime-style-2" data-cursor="-opaque">Featured Construction Projects <span>Across Chennai</span></h2>
                     </div>
                     <!-- Section Title End -->
                 </div>
@@ -532,7 +533,7 @@ include "header.php";
                 <div class="col-lg-7">
                     <!-- Section Title Content Start -->
                     <div class="section-title-content">
-                        <p class="wow fadeInUp" data-wow-delay="0.2s">Our portfolio showcases a diverse range of projects, from beautifully crafted residential spaces functional and stylish commercial interiors</p>
+                        <p class="wow fadeInUp" data-wow-delay="0.2s">Explore our diverse construction portfolio, featuring multi-storey residential complexes, modern commercial spaces, and custom architectural elevations built across Chennai.</p>
                     </div>
                     <!-- Section Title Content End -->
                 </div>
@@ -543,10 +544,11 @@ include "header.php";
                     <!-- Our Project Nav start -->
                     <div class="our-Project-nav wow fadeInUp" data-wow-delay="0.4s">
                         <ul>
-                            <li><a href="#" class="active-btn" data-filter="*">all</a></li>
-                            <li><a href="#" data-filter=".architecture">architecture</a></li>
-                            <li><a href="#" data-filter=".interior">interior</a></li>
-                        
+                            <li><a href="#" class="active-btn" data-filter="*">All</a></li>
+                            <li><a href="#" data-filter=".residential">Residential</a></li>
+                            <li><a href="#" data-filter=".commercial">Commercial</a></li>
+                            <li><a href="#" data-filter=".interior">Interior</a></li>
+                            <li><a href="#" data-filter=".architecture">Architecture</a></li>
                         </ul>
                     </div>
                     <!-- Our Project Nav End -->
@@ -555,13 +557,13 @@ include "header.php";
                 <div class="col-lg-12">
                     <!-- Project Item Boxes start -->
                     <div class="row project-item-boxes align-items-center">
-                        <div class="col-md-6 project-item-box architecture ">
+                        <div class="col-md-6 project-item-box residential architecture">
                             <!-- Project Item Start -->
                             <div class="project-item wow fadeInUp">
                                 <div class="project-image">
                                     <div class="project-featured-image">
                                         <figure class="image-anime">
-                                            <img src="images/resources/sharp-1.webp" alt="Residential project by Sharp Associates" width="1536" height="1024" loading="lazy" decoding="async">
+                                            <img src="images/resources/sharp-1.webp" alt="Multi-storey residential building construction in Chennai by Sharp Associates" width="1536" height="1024" loading="lazy" decoding="async">
                                         </figure>
                                     </div>
                                 
@@ -569,19 +571,17 @@ include "header.php";
                                         <a href="our-work.php" aria-label="View project details in Our Works gallery"><img src="images/arrow-white.svg" alt="View project details" width="20" height="20" loading="lazy"></a>
                                     </div>
                                 </div>     
-    
-                               
                             </div>
                             <!-- Project Item End -->
                         </div>
 
-                        <div class="col-md-6 project-item-box architecture ">
+                        <div class="col-md-6 project-item-box commercial residential">
                             <!-- Project Item Start -->
                             <div class="project-item wow fadeInUp" data-wow-delay="0.2s">
                                 <div class="project-image">
                                     <div class="project-featured-image">
                                         <figure class="image-anime">
-                                            <img src="images/resources/sharp-10.webp" alt="Luxury home project by Sharp Associates" width="1536" height="1024" loading="lazy" decoding="async">
+                                            <img src="images/resources/sharp-10.webp" alt="Civil infrastructure and structural engineering project in Chennai" width="1536" height="1024" loading="lazy" decoding="async">
                                         </figure>
                                     </div>
                                 
@@ -589,19 +589,17 @@ include "header.php";
                                         <a href="our-work.php" aria-label="View project details in Our Works gallery"><img src="images/arrow-white.svg" alt="View project details" width="20" height="20" loading="lazy"></a>
                                     </div>
                                 </div>     
-
-                                
                             </div>
                             <!-- Project Item End -->
                         </div>
 
-                        <div class="col-md-6 project-item-box  architecture">
+                        <div class="col-md-6 project-item-box architecture residential">
                             <!-- Project Item Start -->
                             <div class="project-item wow fadeInUp" data-wow-delay="0.4s">
                                 <div class="project-image">
                                     <div class="project-featured-image">
                                         <figure class="image-anime">
-                                            <img src="images/resources/sharp-11.jpg" alt="Outdoor and landscape project by Sharp Associates" width="1200" height="960" loading="lazy" decoding="async">
+                                            <img src="images/resources/sharp-11.webp" alt="Sustainable modern residential villa architectural design" width="1200" height="960" loading="lazy" decoding="async">
                                         </figure>
                                     </div>
                                 
@@ -609,20 +607,17 @@ include "header.php";
                                         <a href="our-work.php" aria-label="View project details in Our Works gallery"><img src="images/arrow-white.svg" alt="View project details" width="20" height="20" loading="lazy"></a>
                                     </div>
                                 </div>     
-
                             </div>
                             <!-- Project Item End -->
                         </div>
 
-
-
-                         <div class="col-md-6 project-item-box  architecture">
+                        <div class="col-md-6 project-item-box interior architecture">
                             <!-- Project Item Start -->
                             <div class="project-item wow fadeInUp" data-wow-delay="0.4s">
                                 <div class="project-image">
                                     <div class="project-featured-image">
                                         <figure class="image-anime">
-                                            <img src="images/resources/sharp-4.webp" alt="Outdoor and landscape project by Sharp Associates" width="1024" height="1024" loading="lazy" decoding="async">
+                                            <img src="images/resources/sharp-4.webp" alt="Turnkey interior architecture and premium living space execution" width="1024" height="1024" loading="lazy" decoding="async">
                                         </figure>
                                     </div>
                                 
@@ -630,29 +625,17 @@ include "header.php";
                                         <a href="our-work.php" aria-label="View project details in Our Works gallery"><img src="images/arrow-white.svg" alt="View project details" width="20" height="20" loading="lazy"></a>
                                     </div>
                                 </div>     
-
-                                
                             </div>
                             <!-- Project Item End -->
                         </div>
 
-
-
-                        
-
-
-                        
-
-                        
-
-
-                        <div class="col-md-6 project-item-box interior ">
+                        <div class="col-md-6 project-item-box commercial interior">
                             <!-- Project Item Start -->
                             <div class="project-item wow fadeInUp" data-wow-delay="0.6s">
                                 <div class="project-image">
                                     <div class="project-featured-image">
                                         <figure class="image-anime">
-                                            <img src="images/resources/sharp-14.jpg" alt="Modern design project by Sharp Associates" width="1600" height="900" loading="lazy" decoding="async">
+                                            <img src="images/resources/sharp-14.webp" alt="Commercial interior fitout and modern architectural finish by Sharp Associates" width="1600" height="900" loading="lazy" decoding="async">
                                         </figure>
                                     </div>
                                 
@@ -660,20 +643,17 @@ include "header.php";
                                         <a href="our-work.php" aria-label="View project details in Our Works gallery"><img src="images/arrow-white.svg" alt="View project details" width="20" height="20" loading="lazy"></a>
                                     </div>
                                 </div>     
-
-                               
                             </div>
                             <!-- Project Item End -->
                         </div>
 
-
-                        <div class="col-md-6 project-item-box interior ">
+                        <div class="col-md-6 project-item-box interior">
                             <!-- Project Item Start -->
                             <div class="project-item wow fadeInUp" data-wow-delay="0.6s">
                                 <div class="project-image">
                                     <div class="project-featured-image">
                                         <figure class="image-anime">
-                                            <img src="images/resources/sharp-17.jpg" alt="Modern design project by Sharp Associates" width="1536" height="850" loading="lazy" decoding="async">
+                                            <img src="images/resources/sharp-17.webp" alt="Modern design project by Sharp Associates" width="1536" height="850" loading="lazy" decoding="async">
                                         </figure>
                                     </div>
                                 
@@ -681,11 +661,20 @@ include "header.php";
                                         <a href="our-work.php" aria-label="View project details in Our Works gallery"><img src="images/arrow-white.svg" alt="View project details" width="20" height="20" loading="lazy"></a>
                                     </div>
                                 </div>     
-
-                               
                             </div>
                             <!-- Project Item End -->
                         </div>
+
+                    </div>
+                    <!-- Project Item Boxes End -->
+
+                    <!-- View All Portfolio CTA Button Start -->
+                    <div class="row">
+                        <div class="col-lg-12 text-center" style="margin-top: 40px;">
+                            <a href="our-work.php" class="btn-default">View Full Construction Portfolio</a>
+                        </div>
+                    </div>
+                    <!-- View All Portfolio CTA Button End -->
 
 
 
@@ -798,13 +787,13 @@ include "header.php";
                 <div class="col-lg-6">
                     <div class="section-title">
                         <h3 class="wow fadeInUp">latest news</h3>
-                        <h2 class="text-anime-style-2" data-cursor="-opaque"><span>Your guide to</span> inspired interiors</h2>
+                        <h2 class="text-anime-style-2" data-cursor="-opaque"><span>Construction Blogs &amp;</span> Building Planning Guides</h2>
                     </div>
                 </div>
 
                 <div class="col-lg-6">
                     <div class="section-title-content">
-                        <p class="wow fadeInUp" data-wow-delay="0.2s">Insights, innovations, and sustainability stories that highlight how Sharp Associates stays ahead in today's building landscape.</p>
+                        <p class="wow fadeInUp" data-wow-delay="0.2s">Practical construction tips, civil engineering insights, and sustainability guides from experienced building contractors in Chennai.</p>
                     </div>
                 </div>
             </div>
@@ -815,14 +804,14 @@ include "header.php";
                         <div class="post-featured-image">
                             <figure>
                                 <a href="blog-1.php" class="image-anime" data-cursor-text="View">
-                                    <img src="images/resources/sharp-6.webp" alt="Building a better tomorrow with smarter construction practices" width="1536" height="1024" loading="lazy" decoding="async">
+                                    <img src="images/resources/sharp-6.webp" alt="Smart construction practices and site automation methods" width="1536" height="1024" loading="lazy" decoding="async">
                                 </a>
                             </figure>
                         </div>
 
                         <div class="post-item-body">
                             <div class="post-item-content">
-                                <h3><a href="blog-1.php">Building a Better Tomorrow with Smarter Construction Practices</a></h3>
+                                <h3><a href="blog-1.php">Smart Construction Practices &amp; Building Innovations</a></h3>
                             </div>
 
                             <div class="post-item-btn">
@@ -837,14 +826,14 @@ include "header.php";
                         <div class="post-featured-image">
                             <figure>
                                 <a href="blog-2.php" class="image-anime" data-cursor-text="View">
-                                    <img src="images/resources/sharp-7.webp" alt="Today's smart buildings" width="1536" height="1024" loading="lazy" decoding="async">
+                                    <img src="images/resources/sharp-7.webp" alt="Smart building technologies and energy efficient architectural systems" width="1536" height="1024" loading="lazy" decoding="async">
                                 </a>
                             </figure>
                         </div>
 
                         <div class="post-item-body">
                             <div class="post-item-content">
-                                <h3><a href="blog-2.php">Today&rsquo;s Smart Buildings</a></h3>
+                                <h3><a href="blog-2.php">Smart Building Technologies &amp; Energy Efficiency</a></h3>
                             </div>
 
                             <div class="post-item-btn">
@@ -859,14 +848,14 @@ include "header.php";
                         <div class="post-featured-image">
                             <figure>
                                 <a href="blog-3.php" class="image-anime" data-cursor-text="View">
-                                    <img src="images/resources/sharp-8.webp" alt="Building for tomorrow sustainable construction" width="1536" height="1024" loading="lazy" decoding="async">
+                                    <img src="images/resources/sharp-8.webp" alt="Sustainable construction methods and eco-friendly building materials" width="1536" height="1024" loading="lazy" decoding="async">
                                 </a>
                             </figure>
                         </div>
 
                         <div class="post-item-body">
                             <div class="post-item-content">
-                                <h3><a href="blog-3.php">Building For Tomorrow: Sustainable Construction</a></h3>
+                                <h3><a href="blog-3.php">Sustainable Construction Methods &amp; Green Building</a></h3>
                             </div>
 
                             <div class="post-item-btn">

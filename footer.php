@@ -56,14 +56,14 @@
                      <div class="footer-links">
                         <h3>Our Services</h3>
                         <ul>
-                            <li><a href="contact.php">Contracting Services</a></li>
-                            <li><a href="landing.php">Joint Venture Projects</a></li>
-                            <li><a href="contact.php">Interior Solutions</a></li>
-                            <li><a href="contact.php">Architectural Design</a></li>
-                            <li><a href="contact.php">Vastu Planning</a></li>
-                            <li><a href="contact.php">End-to-End Construction</a></li>
-                            <li><a href="contact.php">Plan Approvals</a></li>
-                            <li><a href="contact.php">Sanctions & Assessments</a></li>
+                            <li><a href="contracting-services-chennai.php">Contracting Services</a></li>
+                            <li><a href="joint-venture-projects-chennai.php">Joint Venture Projects</a></li>
+                            <li><a href="interior-solutions-chennai.php">Interior Solutions</a></li>
+                            <li><a href="architectural-design-chennai.php">Architectural Design</a></li>
+                            <li><a href="vastu-planning-chennai.php">Vastu Planning</a></li>
+                            <li><a href="end-to-end-construction-chennai.php">End-to-End Construction</a></li>
+                            <li><a href="building-plan-approvals-chennai.php">Plan Approvals</a></li>
+                            <li><a href="building-sanctions-assessments-chennai.php">Sanctions &amp; Assessments</a></li>
                         </ul>
                      </div>
                     <!-- Footer Links End -->
@@ -106,9 +106,9 @@
                                 <i class="fa-solid fa-location-dot"></i>
                             </div>
                             <div class="footer-contact-content">
-                                <p>Old No. 29,New No:28,
-Loco Works Rd,
-Agaram, Chennai, 600 082,
+                                <p>Old No. 29, New No. 28,<br>
+Loco Works Road,<br>
+Agaram, Chennai – 600082,<br>
 India.</p>
                             </div>
                         </div>

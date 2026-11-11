@@ -7,6 +7,25 @@ $canonical_url = !empty($canonical_url) ? $canonical_url : $default_domain . "/"
 $og_image = !empty($og_image) ? $og_image : $default_domain . "/images/resources/hero-banner-1.webp";
 $og_type = !empty($og_type) ? $og_type : "website";
 $noindex = !empty($noindex);
+
+// Active Page & Service Detection based on canonical URL and script path
+$canonical_path = !empty($canonical_url) ? trim(parse_url($canonical_url, PHP_URL_PATH), '/') : '';
+$page_slug = !empty($canonical_path) ? basename($canonical_path) : basename($_SERVER['SCRIPT_NAME'] ?? ($_SERVER['PHP_SELF'] ?? ''));
+if (empty($page_slug) || $page_slug === 'sharpassociates.in') {
+    $page_slug = 'index.php';
+}
+
+$service_slugs = [
+    'contracting-services-chennai.php',
+    'joint-venture-projects-chennai.php',
+    'interior-solutions-chennai.php',
+    'architectural-design-chennai.php',
+    'vastu-planning-chennai.php',
+    'end-to-end-construction-chennai.php',
+    'building-plan-approvals-chennai.php',
+    'building-sanctions-assessments-chennai.php'
+];
+$is_service_active = in_array($page_slug, $service_slugs);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -65,6 +84,81 @@ $noindex = !empty($noindex);
 	<link rel="stylesheet" href="css/mousecursor.css">
 	<!-- Main Custom Css -->
 	<link href="css/custom.css" rel="stylesheet" media="screen">
+	<!-- Services Dropdown Styling -->
+	<style>
+		.main-menu ul li.submenu{
+			position: relative;
+		}
+		.main-menu ul li.submenu ul{
+			width: 280px;
+			background-color: #052c41;
+			border-radius: 12px;
+			box-shadow: 0 12px 32px rgba(5, 44, 65, 0.22);
+			border: 1px solid rgba(255, 255, 255, 0.08);
+			padding: 8px 0;
+			top: 100%;
+			left: 0;
+			z-index: 1000;
+		}
+		.main-menu ul li.submenu ul li{
+			display: block;
+			width: 100%;
+			margin: 0;
+			padding: 0;
+		}
+		.main-menu ul li.submenu ul li a{
+			color: #e2e8f0;
+			font-size: 15px;
+			font-weight: 500;
+			padding: 9px 20px !important;
+			display: block;
+			text-align: left;
+			transition: all 0.25s ease-in-out;
+		}
+		.main-menu ul li.submenu ul li a:hover{
+			color: #ffffff;
+			background-color: rgba(143, 181, 225, 0.16);
+			padding-left: 24px !important;
+		}
+		.main-menu ul li.submenu ul li.active-service a{
+			color: var(--accent-color);
+			font-weight: 700;
+			background-color: rgba(143, 181, 225, 0.12);
+			border-left: 3px solid var(--accent-color);
+		}
+		.main-menu ul li.active > a,
+		.main-menu ul li.submenu.active > a{
+			color: var(--accent-color) !important;
+			font-weight: 600;
+		}
+		.main-menu ul li.submenu.open > ul{
+			visibility: visible;
+			opacity: 1;
+			transform: scaleY(1);
+		}
+		/* Mobile SlickNav Dropdown Enhancements */
+		.slicknav_menu ul ul{
+			background: #052c41 !important;
+			border-radius: 8px;
+			margin: 4px 12px !important;
+			padding: 6px 0 !important;
+		}
+		.slicknav_menu ul ul li a{
+			color: #f1f5f9 !important;
+			font-size: 15px !important;
+			padding: 8px 18px !important;
+		}
+		.slicknav_menu ul ul li a:hover,
+		.slicknav_menu ul ul li.active-service a{
+			color: var(--accent-color) !important;
+			background: rgba(255, 255, 255, 0.08) !important;
+		}
+		.slicknav_nav li.active > a,
+		.slicknav_nav li.submenu.active > a{
+			color: var(--accent-color) !important;
+			font-weight: 600;
+		}
+	</style>
 <?php if (!empty($schema_json)): ?>
 	<!-- Structured Data (Schema.org JSON-LD) -->
 	<script type="application/ld+json">
@@ -98,11 +192,40 @@ $noindex = !empty($noindex);
 					<div class="collapse navbar-collapse main-menu">
                         <div class="nav-menu-wrapper">
                             <ul class="navbar-nav mr-auto" id="menu">
-                                <li class="nav-item"><a class="nav-link" href="/">Home</a></li>                             
-                                <li class="nav-item"><a class="nav-link" href="about.php">About Us</a></li>
-                                <li class="nav-item"><a class="nav-link" href="our-work.php">Our Works</a></li>
-                                <li class="nav-item"><a class="nav-link" href="blog.php">Blog</a></li>
-                                <li class="nav-item"><a class="nav-link" href="contact.php">Contact Us</a></li>                             
+                                <li class="nav-item<?php echo ($page_slug === 'index.php') ? ' active' : ''; ?>"><a class="nav-link" href="/">Home</a></li>                             
+                                <li class="nav-item<?php echo ($page_slug === 'about.php') ? ' active' : ''; ?>"><a class="nav-link" href="about.php">About Us</a></li>
+                                <li class="nav-item submenu<?php echo $is_service_active ? ' active' : ''; ?>">
+                                    <a class="nav-link" href="index.php#services">Services</a>
+                                    <ul>
+                                        <li class="<?php echo ($page_slug === 'contracting-services-chennai.php') ? 'active-service' : ''; ?>">
+                                            <a href="contracting-services-chennai.php">Contracting Services</a>
+                                        </li>
+                                        <li class="<?php echo ($page_slug === 'joint-venture-projects-chennai.php') ? 'active-service' : ''; ?>">
+                                            <a href="joint-venture-projects-chennai.php">Joint Venture Projects</a>
+                                        </li>
+                                        <li class="<?php echo ($page_slug === 'interior-solutions-chennai.php') ? 'active-service' : ''; ?>">
+                                            <a href="interior-solutions-chennai.php">Interior Solutions</a>
+                                        </li>
+                                        <li class="<?php echo ($page_slug === 'architectural-design-chennai.php') ? 'active-service' : ''; ?>">
+                                            <a href="architectural-design-chennai.php">Architectural Design</a>
+                                        </li>
+                                        <li class="<?php echo ($page_slug === 'vastu-planning-chennai.php') ? 'active-service' : ''; ?>">
+                                            <a href="vastu-planning-chennai.php">Vastu Planning</a>
+                                        </li>
+                                        <li class="<?php echo ($page_slug === 'end-to-end-construction-chennai.php') ? 'active-service' : ''; ?>">
+                                            <a href="end-to-end-construction-chennai.php">End-to-End Construction</a>
+                                        </li>
+                                        <li class="<?php echo ($page_slug === 'building-plan-approvals-chennai.php') ? 'active-service' : ''; ?>">
+                                            <a href="building-plan-approvals-chennai.php">Plan Approvals</a>
+                                        </li>
+                                        <li class="<?php echo ($page_slug === 'building-sanctions-assessments-chennai.php') ? 'active-service' : ''; ?>">
+                                            <a href="building-sanctions-assessments-chennai.php">Sanctions &amp; Assessments</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item<?php echo ($page_slug === 'our-work.php') ? ' active' : ''; ?>"><a class="nav-link" href="our-work.php">Our Works</a></li>
+                                <li class="nav-item<?php echo (strpos($page_slug, 'blog') !== false) ? ' active' : ''; ?>"><a class="nav-link" href="blog.php">Blog</a></li>
+                                <li class="nav-item<?php echo ($page_slug === 'contact.php') ? ' active' : ''; ?>"><a class="nav-link" href="contact.php">Contact Us</a></li>                             
                             </ul>
                         </div>
                         <!-- Header Btn Start -->
@@ -119,3 +242,28 @@ $noindex = !empty($noindex);
 		</div>
 	</header>
 	<!-- Header End -->
+	<script>
+		document.addEventListener('DOMContentLoaded', function() {
+			var submenus = document.querySelectorAll('.main-menu li.submenu');
+			submenus.forEach(function(sm) {
+				var link = sm.querySelector('> a');
+				if (link) {
+					link.addEventListener('click', function(e) {
+						if (window.innerWidth >= 992) {
+							var wasOpen = sm.classList.contains('open');
+							submenus.forEach(function(other) { other.classList.remove('open'); });
+							if (!wasOpen) {
+								sm.classList.add('open');
+								e.preventDefault();
+							}
+						}
+					});
+				}
+			});
+			document.addEventListener('click', function(e) {
+				if (!e.target.closest('.main-menu li.submenu')) {
+					submenus.forEach(function(sm) { sm.classList.remove('open'); });
+				}
+			});
+		});
+	</script>
