@@ -246,7 +246,7 @@ body{
 
 .btn-default.btn-highlighted{
 	background-color: var(--white-color);
-	color: var(--accent-color);
+	color: var(--primary-color);
 }
 
 .btn-default.btn-highlighted:hover{
@@ -254,7 +254,7 @@ body{
 }
 
 .btn-default.btn-highlighted::before{
-	background-image: url(../images/arrow-accent.svg);
+	background-image: url(../images/arrow-dark.svg);
 }
 
 .btn-default.btn-highlighted:hover::before{
@@ -262,7 +262,7 @@ body{
 }
 
 .btn-default.btn-highlighted::after{
-	background-color: var(--accent-color);
+	background-color: var(--primary-color);
 }
 
 .cb-cursor:before{
@@ -725,7 +725,7 @@ header.main-header .header-btn .btn-default:hover{
 	left: 0;
 	bottom: 0;
 	right: 0;
-	background: linear-gradient(180deg, rgba(25, 35, 36, 0) 0%, rgba(25, 35, 36, 0.4) 80.94%);
+	background: linear-gradient(180deg, rgba(5, 24, 38, 0.65) 0%, rgba(5, 24, 38, 0.50) 50%, rgba(5, 24, 38, 0.75) 100%);
 	height: 100%;
 	width: 100%;
 	z-index: 1;
@@ -766,7 +766,7 @@ header.main-header .header-btn .btn-default:hover{
     bottom: 0;
     left: 0;
     right: 0;
-    background: linear-gradient(180deg, rgba(25, 35, 36, 0) 0%, rgba(25, 35, 36, 0.4) 80.94%);
+    background: linear-gradient(180deg, rgba(5, 24, 38, 0.65) 0%, rgba(5, 24, 38, 0.50) 50%, rgba(5, 24, 38, 0.75) 100%);
     width: 100%;
     height: 100%;
     z-index: 1;
@@ -813,23 +813,82 @@ header.main-header .header-btn .btn-default:hover{
 }
 
 .hero-content .section-title h3,
-.hero-content .section-title h1{
-	color: var(--white-color);
+.hero-content .section-title h1,
+.hero-content .section-title h2,
+.hero-content .section-title h1 div,
+.hero-content .section-title h2 div{
+	color: #ffffff;
+	text-shadow: 0 2px 10px rgba(0, 0, 0, 0.7);
+}
+
+.hero-content .section-title h1 span,
+.hero-content .section-title h2 span,
+.hero-content .section-title h1 span *,
+.hero-content .section-title h2 span *{
+	color: #38bdf8 !important;
+	text-shadow: 0 2px 10px rgba(0, 0, 0, 0.7);
 }
 
 .hero-content .section-title p{
 	font-size: 22px;
-	color: var(--white-color);
+	color: #ffffff;
 	width: 100%;
 	max-width: 600px;
+	text-shadow: 0 1px 4px rgba(0, 0, 0, 0.65), 0 2px 8px rgba(0, 0, 0, 0.4);
 }
 
 .hero-content .section-title h3::before{
 	filter: brightness(0) invert(1);
 }
 
+.hero-content .hero-btn .btn-default,
+.hero-content .btn-default{
+	color: var(--primary-color);
+	background: var(--accent-color);
+	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
+}
+
+.hero-content .hero-btn .btn-default::before,
+.hero-content .btn-default::before{
+	background-image: url(../images/arrow-dark.svg);
+}
+
+.hero-content .hero-btn .btn-default:hover,
+.hero-content .btn-default:hover{
+	color: var(--white-color);
+}
+
+.hero-content .hero-btn .btn-default:hover::before,
+.hero-content .btn-default:hover::before{
+	filter: brightness(0) invert(1);
+}
+
+.hero-content .hero-btn .btn-default.btn-highlighted,
 .hero-content .btn-default.btn-highlighted{
+	background-color: var(--white-color);
+	color: var(--primary-color);
 	margin-left: 30px;
+	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
+}
+
+.hero-content .hero-btn .btn-default.btn-highlighted::before,
+.hero-content .btn-default.btn-highlighted::before{
+	background-image: url(../images/arrow-dark.svg);
+}
+
+.hero-content .hero-btn .btn-default.btn-highlighted:hover,
+.hero-content .btn-default.btn-highlighted:hover{
+	color: var(--white-color);
+}
+
+.hero-content .hero-btn .btn-default.btn-highlighted:hover::before,
+.hero-content .btn-default.btn-highlighted:hover::before{
+	filter: brightness(0) invert(1);
+}
+
+.hero-content .hero-btn .btn-default.btn-highlighted::after,
+.hero-content .btn-default.btn-highlighted::after{
+	background-color: var(--primary-color);
 }
 
 /************************************/
@@ -4499,12 +4558,14 @@ header.main-header .header-btn .btn-default:hover{
 	}
 
 	.hero-content .btn-default{
-		margin-right: 40px;
-		margin-bottom: 10px;
+		margin-right: 15px;
+		margin-bottom: 12px;
 	}
 
 	.hero-content .btn-default.btn-highlighted{
-		margin: 0;
+		margin-left: 0;
+		margin-right: 0;
+		margin-bottom: 12px;
 	}
 
 	.about-us-images{

@@ -92,7 +92,7 @@ include "header.php";
                                         <!-- Section Title Start -->
                                         <div class="section-title">
                                             <h3 class="wow fadeInUp">SHARP ASSOCIATES</h3>
-                                            <h1 class="text-anime-style-2" data-cursor="-opaque">Building Construction & Architectural Development in Chennai</h1>
+                                            <h1 class="text-anime-style-2" data-cursor="-opaque">Building Construction & <span>Architectural Development</span> in Chennai</h1>
                                             <p class="wow fadeInUp" data-wow-delay="0.2s">Reliable construction solutions for residential and commercial projects, delivered with precision, engineering quality, and trust.</p>
                                         </div>
                                         <!-- Section Title End -->
@@ -129,7 +129,7 @@ include "header.php";
                                         <!-- Section Title Start -->
                                         <div class="section-title">
                                             <h3 class="wow fadeInUp">SHARP ASSOCIATES</h3>
-                                            <h2 class="text-anime-style-2" data-cursor="-opaque">Turnkey Civil Construction & Engineering Excellence</h2>
+                                            <h2 class="text-anime-style-2" data-cursor="-opaque">Turnkey Civil Construction & <span>Engineering Excellence</span></h2>
                                             <p class="wow fadeInUp" data-wow-delay="0.2s">Expert civil construction, smart architectural planning, and timely project delivery across Chennai.</p>
                                         </div>
                                         <!-- Section Title End -->
