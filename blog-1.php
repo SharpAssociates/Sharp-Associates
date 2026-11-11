@@ -487,7 +487,7 @@ include "header.php";
 						<span class="section-label">Circular Economy</span>
 						<h3>Extending Material Lifecycles and Reducing Waste</h3>
 
-						<h4>Reducing Waste through Reuse and Recycling</h4>
+						<h4>Reducing Waste  through Reuse and Recycling</h4>
 						<p>The construction industry is shifting towards reusing materials from demolished structures. Instead of traditional demolition, deconstruction methods allow valuable materials to be recovered and reused.</p>
 						<p>This approach significantly reduces waste generation and environmental impact.</p>
 
