@@ -123,5 +123,7 @@ class Cursor {
         this.visibleInt = setTimeout(() => this.visible = false, this.options.visibleTimeout);
     }
 }
-// Init cursor
-const cursor = new Cursor();
+// Init cursor only on devices with fine pointer (mouse/trackpad), avoiding mobile touch overhead
+if (typeof window !== 'undefined' && window.matchMedia && window.matchMedia('(pointer: fine)').matches) {
+    const cursor = new Cursor();
+}

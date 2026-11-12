@@ -130,7 +130,7 @@ include "header.php";
                                         <!-- Section Title Start -->
                                         <div class="section-title">
                                             <h3 class="wow fadeInUp">SHARP ASSOCIATES</h3>
-                                            <h1 class="text-anime-style-2" data-cursor="-opaque">Civil Construction Company in Chennai &amp; <span>Construction Professionals</span></h1>
+                                            <h2 class="text-anime-style-2" data-cursor="-opaque">Civil Construction Company in Chennai &amp; <span>Construction Professionals</span></h2>
                                             <p class="wow fadeInUp" data-wow-delay="0.2s">Turnkey building contractors in Chennai specializing in structural execution, architectural planning, and joint venture property developments.</p>
                                         </div>
                                         <!-- Section Title End -->
