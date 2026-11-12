@@ -34,6 +34,7 @@ $is_service_active = in_array($page_slug, $service_slugs);
 	<!-- Meta -->
 	<meta charset="utf-8">
 	<meta name="google-site-verification" content="MW8i7ckmMovjidpK5lYcyVAnZybMZMLflAawhCI6LJQ" />
+	<meta name="google-site-verification" content="ZtXm8m_XkCEl_N2s4lJBDz_Jok6g35VCiDS5QvY9j50" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title><?php echo htmlspecialchars($page_title, ENT_QUOTES, 'UTF-8'); ?></title>
