@@ -73,7 +73,6 @@ if (!empty($_POST['name']) && !empty($_POST['email'])) {
 
     // Recipients
     $recipients1 = "maaran@ysa-india.com";
-    $recipients2 = "fyndxadmin@gmail.com";
 
     // Mail Send   
     if (@mail($recipients1, $email_subject, $email_message, $headers, "-f $email_from")) {

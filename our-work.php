@@ -413,8 +413,8 @@ include "header.php";
                 <h3 style="color: #fff; font-size: 28px; margin-bottom: 15px;">Planning a Construction or Interior Project in Chennai?</h3>
                 <p style="color: #e2e8f0; max-width: 680px; margin: 0 auto 25px; font-size: 16px;">Speak directly with our senior civil engineers and architects to discuss your site, review structural drawings, and receive a comprehensive, transparent BOQ estimate.</p>
                 <div style="display: flex; gap: 15px; justify-content: center; flex-wrap: wrap;">
-                    <a href="landing.php" class="btn-default btn-highlighted">Request a Free Quote</a>
-                    <a href="contact.php" class="btn-default btn-outline">Consult Our Engineers</a>
+                    <a href="contact.php" class="btn-default btn-highlighted">Request a Free Consultation</a>
+                    <a href="tel:+919500036132" class="btn-default btn-outline"><i class="fa-solid fa-phone me-2"></i> Call Us Now</a>
                 </div>
             </div>
             <!-- Bottom Enquiry CTA Banner End -->

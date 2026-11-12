@@ -523,6 +523,10 @@ include "header.php";
 						<h3>Engineering Smarter Buildings for Chennai</h3>
 						<p>Adopting smart construction practices is not merely about using newer tools—it is about planning every phase with precision. At Sharp Associates, we integrate disciplined site coordination, high-grade concrete standards, and structured project management into every build.</p>
 						<p>Explore our <a href="contracting-services-chennai.php" style="color: #c8a763; font-weight: 600; text-decoration: underline;">contracting services</a>, <a href="end-to-end-construction-chennai.php" style="color: #c8a763; font-weight: 600; text-decoration: underline;">turnkey construction</a>, or <a href="contact.php" style="color: #c8a763; font-weight: 600; text-decoration: underline;">contact our engineering team</a> to discuss your upcoming residential or commercial development.</p>
+						<div class="closing-cta mt-4" style="display: flex; gap: 15px; flex-wrap: wrap;">
+							<a href="contact.php" class="btn-default">Request a Free Consultation</a>
+							<a href="tel:+919500036132" class="btn-default btn-highlighted"><i class="fa-solid fa-phone me-2"></i> Call Us Now</a>
+						</div>
 					</div>
 
 					<div class="post-tag-links mt-4">
@@ -588,6 +592,13 @@ include "header.php";
 						<li><a href="our-work.php" style="color: inherit; text-decoration: underline;">View Completed Construction Projects</a></li>
 						<li><a href="contact.php" style="color: inherit; text-decoration: underline;">Consult With Our Civil Contractors</a></li>
 					</ul>
+				</div>
+
+				<div class="sidebar-card wow fadeInUp" data-wow-delay="0.9s" style="background: linear-gradient(135deg, var(--primary-color) 0%, #0d3b59 100%); color: #fff; border-radius: 16px; padding: 25px; text-align: center;">
+					<h3 style="color: #fff; font-size: 20px; margin-bottom: 12px;">Planning a Project?</h3>
+					<p style="color: #cbd5e1; font-size: 14px; line-height: 1.6; margin-bottom: 20px;">Get expert engineering advice and a detailed cost estimate for your construction in Chennai.</p>
+					<a href="contact.php" class="btn-default" style="display: block; width: 100%; text-align: center; margin-bottom: 10px; margin-right: 0;">Request a Free Consultation</a>
+					<a href="tel:+919500036132" class="btn-default btn-highlighted" style="display: block; width: 100%; text-align: center; margin-right: 0;"><i class="fa-solid fa-phone me-2"></i> Call Us Now</a>
 				</div>
 			</div>
 		</div>

@@ -73,54 +73,74 @@ include "header.php";
                 </div>
                 
                 <div class="col-lg-6">
-                    <!-- Contact Us Form Start -->
-                    <div class="contact-us-form">
-                        <!-- Section Title Start -->
-                        <div class="section-title">
-                            <h3 class="wow fadeInUp">contact form</h3>
-                            <h2 class="text-anime-style-2" data-cursor="-opaque">Contact Building Contractors for <span>Construction Services in Chennai</span></h2>
-                            <p class="wow fadeInUp" data-wow-delay="0.2s">Connect with our civil engineers to discuss residential construction, commercial developments, or joint ventures. Required fields are marked *</p>
+                    <!-- Contact Us Form Box Start -->
+                    <div class="contact-us-form modern-contact-form-box wow fadeInUp" data-wow-delay="0.2s">
+                        <!-- Form Header Start -->
+                        <div class="contact-form-header">
+                            <span class="contact-form-eyebrow"><i class="fa-solid fa-hard-hat me-2"></i>CONTACT FORM</span>
+                            <h2 class="contact-form-title">Contact us for <span>Free consultation</span></h2>
+                            <p class="contact-form-subtitle">Connect with our civil engineers to discuss residential construction, commercial developments, or joint ventures.</p>
                         </div>
-                        <!-- Section Title End -->
+                        <!-- Form Header End -->
 
                         <!-- Contact Form Start -->
-                        <div class="contact-form">
-                            <!-- Contact Form Start -->
-                            <form  action="thank-contact.php" method="POST" data-toggle="validator" class="wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="contact-form modern-contact-form">
+                            <form action="thank-contact.php" method="POST" data-toggle="validator">
                                 <div class="row">
-                                    <div class="form-group col-md-6 mb-4">
-                                        <input type="text" name="name" class="form-control" id="name" placeholder="Name*" aria-label="Your Name" required>
+                                    <div class="form-group col-md-6 mb-3">
+                                        <label for="name" class="modern-form-label">Name <span class="required-star">*</span></label>
+                                        <input type="text" name="name" class="form-control modern-form-control" id="name" placeholder="Enter your full name" aria-label="Your Name" required>
                                         <div class="help-block with-errors"></div>
                                     </div>
 
-                                    
-
-                                    <div class="form-group col-md-6 mb-4">
-                                        <input type="text" name="phone" class="form-control" id="phone" placeholder="Your Phone*" aria-label="Your Phone Number" required>
+                                    <div class="form-group col-md-6 mb-3">
+                                        <label for="phone" class="modern-form-label">Phone Number <span class="required-star">*</span></label>
+                                        <input type="tel" name="phone" class="form-control modern-form-control" id="phone" placeholder="+91 98765 43210" aria-label="Your Phone Number" required>
                                         <div class="help-block with-errors"></div>
                                     </div>
 
-                                    <div class="form-group col-md-12 mb-4">
-                                        <input type="email" name ="email" class="form-control" id="email" placeholder="Email Address*" aria-label="Your Email Address" required>
+                                    <div class="form-group col-12 mb-3">
+                                        <label for="email" class="modern-form-label">Email Address <span class="required-star">*</span></label>
+                                        <input type="email" name="email" class="form-control modern-form-control" id="email" placeholder="name@example.com" aria-label="Your Email Address" required>
                                         <div class="help-block with-errors"></div>
                                     </div>
 
-                                    <div class="form-group col-md-12 mb-5">
-                                        <textarea name="message" class="form-control" id="message" rows="4" placeholder="Your Message" aria-label="Your Message"></textarea>
+                                    <div class="form-group col-12 mb-3">
+                                        <label for="service" class="modern-form-label">Select a Service (Optional)</label>
+                                        <select name="service" id="service" class="form-control modern-form-control modern-form-select" aria-label="Select a Service">
+                                            <option value="">Choose a service</option>
+                                            <option value="Contracting Services">End-to-End Construction</option>
+                                            <option value="Joint Venture Projects">Architectural Design</option>
+                                            <option value="Interior Solutions">Interior Solutions</option>
+                                            <option value="Architectural Design">Joint Venture Projects</option>
+                                            <option value="Vastu Planning">Vastu Planning</option>
+                                            <option value="End-to-End Construction">Contracting Services</option>
+                                            <option value="Plan Approvals">Plan Approvals</option>
+                                            <option value="Sanctions & Assessments">Sanctions & Assessments</option>
+                                            <option value="Other Enquiry">Other Enquiry</option>
+                                        </select>
                                         <div class="help-block with-errors"></div>
                                     </div>
 
-                                    <div class="col-md-12">
-                                        <button type="submit" class="btn-default">submit</button>
+                                    <div class="form-group col-12 mb-4">
+                                        <label for="message" class="modern-form-label">Your Message</label>
+                                        <textarea name="message" class="form-control modern-form-control modern-form-textarea" id="message" rows="4" placeholder="Tell us about your plot location, project scale or specific construction requirements..." aria-label="Your Message"></textarea>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+
+                                    <div class="col-12">
+                                        <button type="submit" class="btn-modern-submit">
+                                            <span>Submit Enquiry</span>
+                                            <i class="fa-solid fa-arrow-right"></i>
+                                        </button>
                                         <div id="msgSubmit" class="h3 hidden"></div>
                                     </div>
                                 </div>
                             </form>
-                            <!-- Contact Form End -->
                         </div>
                         <!-- Contact Form End -->
                     </div>
-                    <!-- Contact Us Form End -->
+                    <!-- Contact Us Form Box End -->
                 </div>
             </div>
         </div>
@@ -148,7 +168,7 @@ include "header.php";
                                 <h3>phone number</h3>
                                
                                  <p>
-                             <a href="tel:+91 95000 36132">+91 95000 36132</a>
+                             <a href="tel:+919500036132">+91 95000 36132</a>
                               </p>
                                                                
                             </div>

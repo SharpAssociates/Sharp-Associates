@@ -203,6 +203,21 @@ include "header.php";
                             </div>
                             <!-- Key Features & Benefits End -->
 
+                            <!-- Mid-Page In-Content CTA Start -->
+                            <div class="service-mid-cta wow fadeInUp">
+                                <div class="row align-items-center">
+                                    <div class="col-md-7">
+                                        <h4>Planning Your Next Construction Project?</h4>
+                                        <p>Speak with our team to discuss your requirements and explore the right construction solution.</p>
+                                    </div>
+                                    <div class="col-md-5 text-md-end mt-3 mt-md-0" style="display: flex; gap: 10px; justify-content: flex-end; flex-wrap: wrap;">
+                                        <a href="contact.php" class="btn-default">Get Free Consultation</a>
+                                        <a href="tel:+919500036132" class="btn-default btn-highlighted"><i class="fa-solid fa-phone me-2"></i> Call Us Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Mid-Page In-Content CTA End -->
+
                             <!-- Approach & Workflow Start -->
                             <h3 class="wow fadeInUp" style="margin-bottom: 20px;">Our 5-Stage Plan Approval Process</h3>
                             <p class="wow fadeInUp">We ensure a structured and transparent permitting workflow from initial document scrutiny to permit release:</p>
@@ -365,8 +380,8 @@ include "header.php";
                                 <h3 style="color: #fff; font-size: 28px; margin-bottom: 15px;">Need Building Plan Approval in Chennai?</h3>
                                 <p style="color: #e2e8f0; max-width: 650px; margin: 0 auto 25px; font-size: 16px;">Send us your plot documents and dimensions for a fast, comprehensive regulatory feasibility review by our senior approval consultants.</p>
                                 <div style="display: flex; gap: 15px; justify-content: center; flex-wrap: wrap;">
-                                    <a href="landing.php" class="btn-default btn-highlighted">Request Approval Assessment</a>
-                                    <a href="contact.php" class="btn-default btn-outline">Speak with Liaison Expert</a>
+                                    <a href="contact.php" class="btn-default btn-highlighted">Request a Free Consultation</a>
+                                    <a href="tel:+919500036132" class="btn-default btn-outline"><i class="fa-solid fa-phone me-2"></i> Call Us Now</a>
                                 </div>
                             </div>
                             <!-- Bottom CTA Banner End -->

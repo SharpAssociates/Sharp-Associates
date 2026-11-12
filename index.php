@@ -81,7 +81,7 @@ include "header.php";
                     <div class="hero-slide">
                         <!-- Slider Image Start -->
                         <div class="hero-slider-image">
-                            <img src="images/resources/hero-banner-1.webp" alt="Building construction contractors in Chennai - Sharp Associates residential project" width="1920" height="1280" fetchpriority="high">
+                            <img src="images/resources/hero-banner-1.webp" alt="Building construction contractors in Chennai - Sharp Associates residential project" width="1920" height="1280" fetchpriority="high" loading="eager" decoding="async">
                         </div>
                         <!-- Slider Image End -->
 
@@ -100,8 +100,8 @@ include "header.php";
                 
                                         <!-- Hero Button Start -->
                                         <div class="hero-btn wow fadeInUp" data-wow-delay="0.4s">
-                                            <a href="contact.php" class="btn-default">Start Your Project Today</a>
-                                            <a href="our-work.php" class="btn-default btn-highlighted">view projects</a>
+                                            <a href="contact.php" class="btn-default">Request a Free Consultation</a>
+                                            <a href="tel:+919500036132" class="btn-default btn-highlighted"><i class="fa-solid fa-phone me-2"></i> Call Us Now</a>
                                         </div>
                                         <!-- Hero Button End -->
                                     </div>
@@ -130,15 +130,15 @@ include "header.php";
                                         <!-- Section Title Start -->
                                         <div class="section-title">
                                             <h3 class="wow fadeInUp">SHARP ASSOCIATES</h3>
-                                            <h2 class="text-anime-style-2" data-cursor="-opaque">Civil Construction Company in Chennai &amp; <span>Building Contractors</span></h2>
+                                            <h1 class="text-anime-style-2" data-cursor="-opaque">Civil Construction Company in Chennai &amp; <span>Construction Professionals</span></h1>
                                             <p class="wow fadeInUp" data-wow-delay="0.2s">Turnkey building contractors in Chennai specializing in structural execution, architectural planning, and joint venture property developments.</p>
                                         </div>
                                         <!-- Section Title End -->
                 
                                         <!-- Hero Button Start -->
                                         <div class="hero-btn wow fadeInUp" data-wow-delay="0.4s">
-                                            <a href="contact.php" class="btn-default">Contact Us Today</a>
-                                            <a href="our-work.php" class="btn-default btn-highlighted">view projects</a>
+                                            <a href="contact.php" class="btn-default">Request a Free Consultation</a>
+                                            <a href="tel:+919500036132" class="btn-default btn-highlighted"><i class="fa-solid fa-phone me-2"></i> Call Us Now</a>
                                         </div>
                                         <!-- Hero Button End -->
                                     </div>
@@ -285,95 +285,97 @@ include "header.php";
                 <div class="col-lg-12">
                     <!-- How We Work List Start -->
                     <div class="how-we-work-list">
-                        <div class="how-we-work-item wow fadeInUp">
+                        <a href="contracting-services-chennai.php" class="how-we-work-item wow fadeInUp" aria-label="Contracting Services - Explore civil building contractors in Chennai">
                             <div class="icon-box">
                                 <i class="fa-solid fa-helmet-safety"></i>
                             </div>
                             <div class="how-we-work-content">
-                                <h3><a href="contracting-services-chennai.php" style="color: inherit;">Contracting Services</a></h3>
-                                <p>Complete construction solutions executed with precision, quality materials, and expert supervision. <a href="contracting-services-chennai.php" style="color: var(--accent-color); font-weight: 500; font-size: 14px; text-decoration: underline;">Explore Service &rarr;</a></p>
+                                <h3>Contracting Services</h3>
+                                <p>Complete construction solutions executed with precision, quality materials, and expert supervision. <span style="color: var(--accent-color); font-weight: 500; font-size: 14px; text-decoration: underline;">Explore Service &rarr;</span></p>
                             </div>
-                        </div>
+                        </a>
 
-                        <div class="how-we-work-item wow fadeInUp" data-wow-delay="0.2s">
+                        <a href="joint-venture-projects-chennai.php" class="how-we-work-item wow fadeInUp" data-wow-delay="0.2s" aria-label="Joint Venture Projects - Explore joint venture builders in Chennai">
                             <div class="icon-box">
                                 <i class="fa-solid fa-handshake"></i>
                             </div>
                             <div class="how-we-work-content">
-                                <h3><a href="joint-venture-projects-chennai.php" style="color: inherit;">Joint Venture Projects</a></h3>
-                                <p>Collaborative development opportunities that maximize land value and ensure profitable outcomes. <a href="joint-venture-projects-chennai.php" style="color: var(--accent-color); font-weight: 500; font-size: 14px; text-decoration: underline;">Explore Service &rarr;</a></p>
+                                <h3>Joint Venture Projects</h3>
+                                <p>Collaborative development opportunities that maximize land value and ensure profitable outcomes. <span style="color: var(--accent-color); font-weight: 500; font-size: 14px; text-decoration: underline;">Explore Service &rarr;</span></p>
                             </div>
-                        </div>
+                        </a>
 
-                        <div class="how-we-work-item wow fadeInUp" data-wow-delay="0.4s">
+                        <a href="interior-solutions-chennai.php" class="how-we-work-item wow fadeInUp" data-wow-delay="0.4s" aria-label="Interior Solutions - Explore bespoke interior solutions in Chennai">
                             <div class="icon-box">
                                 <i class="fa-solid fa-couch"></i>
                             </div>
                             <div class="how-we-work-content">
-                                <h3><a href="interior-solutions-chennai.php" style="color: inherit;">Interior Solutions</a></h3>
-                                <p>Functional and aesthetic interior designs tailored to enhance comfort, style, and usability. <a href="interior-solutions-chennai.php" style="color: var(--accent-color); font-weight: 500; font-size: 14px; text-decoration: underline;">Explore Service &rarr;</a></p>
+                                <h3>Interior Solutions</h3>
+                                <p>Functional and aesthetic interior designs tailored to enhance comfort, style, and usability. <span style="color: var(--accent-color); font-weight: 500; font-size: 14px; text-decoration: underline;">Explore Service &rarr;</span></p>
                             </div>
-                        </div>
+                        </a>
 
-                        <div class="how-we-work-item wow fadeInUp" data-wow-delay="0.6s">
+                        <a href="architectural-design-chennai.php" class="how-we-work-item wow fadeInUp" data-wow-delay="0.6s" aria-label="Architectural Design - Explore architectural design services in Chennai">
                             <div class="icon-box">
                                 <i class="fa-solid fa-compass-drafting"></i>
                             </div>
                             <div class="how-we-work-content">
-                                <h3><a href="architectural-design-chennai.php" style="color: inherit;">Architectural Design</a></h3>
-                                <p>Innovative and practical designs that align with modern standards and structural efficiency. <a href="architectural-design-chennai.php" style="color: var(--accent-color); font-weight: 500; font-size: 14px; text-decoration: underline;">Explore Service &rarr;</a></p>
+                                <h3>Architectural Design</h3>
+                                <p>Innovative and practical designs that align with modern standards and structural efficiency. <span style="color: var(--accent-color); font-weight: 500; font-size: 14px; text-decoration: underline;">Explore Service &rarr;</span></p>
                             </div>
-                        </div>
+                        </a>
 
-                        <div class="how-we-work-item wow fadeInUp" data-wow-delay="0.8s">
+                        <a href="vastu-planning-chennai.php" class="how-we-work-item wow fadeInUp" data-wow-delay="0.8s" aria-label="Vastu Planning - Explore Vastu consultants and planning in Chennai">
                             <div class="icon-box">
                                 <i class="fa-solid fa-compass"></i>
                             </div>
                             <div class="how-we-work-content">
-                                <h3><a href="vastu-planning-chennai.php" style="color: inherit;">Vastu Planning</a></h3>
-                                <p>Space planning based on Vastu principles to create balanced and positive living environments. <a href="vastu-planning-chennai.php" style="color: var(--accent-color); font-weight: 500; font-size: 14px; text-decoration: underline;">Explore Service &rarr;</a></p>
+                                <h3>Vastu Planning</h3>
+                                <p>Space planning based on Vastu principles to create balanced and positive living environments. <span style="color: var(--accent-color); font-weight: 500; font-size: 14px; text-decoration: underline;">Explore Service &rarr;</span></p>
                             </div>
-                        </div>
+                        </a>
 
-                        <div class="how-we-work-item wow fadeInUp" data-wow-delay="1s">
+                        <a href="end-to-end-construction-chennai.php" class="how-we-work-item wow fadeInUp" data-wow-delay="1s" aria-label="End-to-End Construction - Explore turnkey building construction in Chennai">
                             <div class="icon-box">
                                 <i class="fa-solid fa-diagram-project"></i>
                             </div>
                             <div class="how-we-work-content">
-                                <h3><a href="end-to-end-construction-chennai.php" style="color: inherit;">End-to-End Construction</a></h3>
-                                <p>Seamless project execution from initial concept to final handover under one roof. <a href="end-to-end-construction-chennai.php" style="color: var(--accent-color); font-weight: 500; font-size: 14px; text-decoration: underline;">Explore Service &rarr;</a></p>
+                                <h3>End-to-End Construction</h3>
+                                <p>Seamless project execution from initial concept to final handover under one roof. <span style="color: var(--accent-color); font-weight: 500; font-size: 14px; text-decoration: underline;">Explore Service &rarr;</span></p>
                             </div>
-                        </div>
+                        </a>
 
-                        <div class="how-we-work-item wow fadeInUp" data-wow-delay="1.2s">
+                        <a href="building-plan-approvals-chennai.php" class="how-we-work-item wow fadeInUp" data-wow-delay="1.2s" aria-label="Plan Approvals - Explore building plan approval services in Chennai">
                             <div class="icon-box">
                                 <i class="fa-solid fa-file-circle-check"></i>
                             </div>
                             <div class="how-we-work-content">
-                                <h3><a href="building-plan-approvals-chennai.php" style="color: inherit;">Plan Approvals</a></h3>
-                                <p>Hassle-free assistance in securing government approvals and required documentation. <a href="building-plan-approvals-chennai.php" style="color: var(--accent-color); font-weight: 500; font-size: 14px; text-decoration: underline;">Explore Service &rarr;</a></p>
+                                <h3>Plan Approvals</h3>
+                                <p>Hassle-free assistance in securing government approvals and required documentation. <span style="color: var(--accent-color); font-weight: 500; font-size: 14px; text-decoration: underline;">Explore Service &rarr;</span></p>
                             </div>
-                        </div>
+                        </a>
 
-                        <!-- <div class="how-we-work-item wow fadeInUp" data-wow-delay="1.4s">
+                        <?php /* Unused template item removed from client-facing DOM
+                        <div class="how-we-work-item wow fadeInUp" data-wow-delay="1.4s">
                             <div class="icon-box">
-                                <img src="images/icon-how-we-work-4.svg" alt="">
+                                <img src="images/icon-how-we-work-4.svg" alt="" width="60" height="60" loading="lazy">
                             </div>
                             <div class="how-we-work-content">
                                 <h3>HVAC Solutions</h3>
                                 <p>Efficient heating, ventilation, and air conditioning systems for optimal indoor comfort.</p>
                             </div>
-                        </div> -->
+                        </div>
+                        */ ?>
 
-                        <div class="how-we-work-item wow fadeInUp" data-wow-delay="1.6s">
+                        <a href="building-sanctions-assessments-chennai.php" class="how-we-work-item wow fadeInUp" data-wow-delay="1.6s" aria-label="Sanctions &amp; Assessments - Explore building sanction services in Chennai">
                             <div class="icon-box">
                                 <i class="fa-solid fa-clipboard-check"></i>
                             </div>
                             <div class="how-we-work-content">
-                                <h3><a href="building-sanctions-assessments-chennai.php" style="color: inherit;">Sanctions &amp; Assessments</a></h3>
-                                <p>Expert guidance in regulatory clearances, compliance, and property evaluations. <a href="building-sanctions-assessments-chennai.php" style="color: var(--accent-color); font-weight: 500; font-size: 14px; text-decoration: underline;">Explore Service &rarr;</a></p>
+                                <h3>Sanctions &amp; Assessments</h3>
+                                <p>Expert guidance in regulatory clearances, compliance, and property evaluations. <span style="color: var(--accent-color); font-weight: 500; font-size: 14px; text-decoration: underline;">Explore Service &rarr;</span></p>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <!-- How We Work List End -->
 
@@ -391,19 +393,19 @@ include "header.php";
         
             <div class="row justify-content-center align-items-center vendor-logos-row">
                 <div class="col-6 col-md-2 text-center">
-                    <img src="images/vendors/bhawani-logo.png" alt="Bhawani" class="img-fluid" width="500" height="500" loading="lazy" decoding="async">
+                    <img src="images/vendors/bhawani-logo.webp" alt="Bhawani" class="img-fluid" width="300" height="300" loading="lazy" decoding="async">
                 </div>
                 <div class="col-6 col-md-2 text-center">
-                    <img src="images/vendors/the-pearl-stone-logo.png" alt="The Pearl Stone" class="img-fluid" width="500" height="500" loading="lazy" decoding="async">
+                    <img src="images/vendors/the-pearl-stone-logo.webp" alt="The Pearl Stone" class="img-fluid" width="300" height="300" loading="lazy" decoding="async">
                 </div>
                 <div class="col-6 col-md-2 text-center">
-                    <img src="images/vendors/mahaveer-logo.png" alt="Mahaveer" class="img-fluid" width="500" height="500" loading="lazy" decoding="async">
+                    <img src="images/vendors/mahaveer-logo.webp" alt="Mahaveer" class="img-fluid" width="300" height="300" loading="lazy" decoding="async">
                 </div>
                 <div class="col-6 col-md-2 text-center">
-                    <img src="images/vendors/concrete-oem-logo.png" alt="Concrete OEM" class="img-fluid" width="500" height="500" loading="lazy" decoding="async">
+                    <img src="images/vendors/concrete-oem-logo.webp" alt="Concrete OEM" class="img-fluid" width="300" height="300" loading="lazy" decoding="async">
                 </div>
                 <div class="col-6 col-md-2 text-center">
-                    <img src="images/vendors/bathcafe-logo.png" alt="Bathcafe" class="img-fluid" width="500" height="500" loading="lazy" decoding="async">
+                    <img src="images/vendors/bathcafe-logo.webp" alt="Bathcafe" class="img-fluid" width="300" height="300" loading="lazy" decoding="async">
                 </div>
             </div>
         </div>

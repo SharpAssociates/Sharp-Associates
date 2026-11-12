@@ -86,8 +86,9 @@ $services_menu = [
                     <p><a href="mailto:maaran@ysa-india.com" style="color: inherit; font-weight: 600;">maaran@ysa-india.com</a></p>
                 </div>
             </div>
-            <div style="margin-top: 25px;">
-                <a href="landing.php" class="btn-default">Get Free Quote</a>
+            <div style="margin-top: 25px; display: flex; flex-direction: column; gap: 10px;">
+                <a href="contact.php" class="btn-default" style="text-align: center; width: 100%; margin-right: 0;">Request a Free Consultation</a>
+                <a href="tel:+919500036132" class="btn-default btn-highlighted" style="text-align: center; width: 100%; margin-right: 0;"><i class="fa-solid fa-phone me-2"></i> Call Us Now</a>
             </div>
         </div>
     </div>

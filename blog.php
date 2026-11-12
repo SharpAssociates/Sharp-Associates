@@ -107,7 +107,7 @@ include "header.php";
 					<div class="post-featured-image">
 						<figure>
 							<a href="blog-3.php" class="image-anime" data-cursor-text="View">
-								<img src="images/resources/sharp-11.jpg" alt="Sustainable construction methods and eco-friendly building materials" width="1200" height="960" loading="lazy" decoding="async">
+								<img src="images/resources/sharp-11.webp" alt="Sustainable construction methods and eco-friendly building materials" width="1200" height="960" loading="lazy" decoding="async">
 							</a>
 						</figure>
 					</div>
@@ -124,6 +124,21 @@ include "header.php";
 				</div>
 			</div>
 		</div>
+
+		<!-- Blog Listing CTA Banner Start -->
+		<div class="row mt-5">
+			<div class="col-lg-12">
+				<div class="service-cta-banner wow fadeInUp" style="background: linear-gradient(135deg, var(--primary-color) 0%, #0d3b59 100%); color: #fff; padding: 45px 30px; border-radius: 16px; text-align: center;">
+					<h3 style="color: #fff; font-size: 28px; margin-bottom: 15px;">Planning Your Next Construction Project in Chennai?</h3>
+					<p style="color: #e2e8f0; max-width: 680px; margin: 0 auto 25px; font-size: 16px;">Speak with our team to discuss your requirements, review architectural drawings, and explore the right construction solution.</p>
+					<div style="display: flex; gap: 15px; justify-content: center; flex-wrap: wrap;">
+						<a href="contact.php" class="btn-default btn-highlighted">Request a Free Consultation</a>
+						<a href="tel:+919500036132" class="btn-default btn-outline"><i class="fa-solid fa-phone me-2"></i> Call Us Now</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Blog Listing CTA Banner End -->
 	</div>
 </div>
 <!-- Our Blog Section End -->

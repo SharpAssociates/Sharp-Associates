@@ -108,8 +108,9 @@ include "header.php";
                             <div class="about-us-content-info">
                                
                                 <!-- About Us Content Button Start -->
-                                <div class="about-us-content-btn wow fadeInUp" data-wow-delay="0.6s">
-                                    <a href="contact.php" class="btn-default">contact now</a>
+                                <div class="about-us-content-btn wow fadeInUp" data-wow-delay="0.6s" style="display: flex; gap: 15px; flex-wrap: wrap;">
+                                    <a href="contact.php" class="btn-default">Request a Free Consultation</a>
+                                    <a href="tel:+919500036132" class="btn-default btn-highlighted"><i class="fa-solid fa-phone me-2"></i> Call Us Now</a>
                                 </div>
                                 <!-- About Us Content Button End -->
                             </div>
@@ -578,5 +579,19 @@ include "header.php";
     </div>
     <!-- Our Testimonial End -->
 
+    <!-- About Bottom CTA Start -->
+    <div class="about-cta-section pb-5">
+        <div class="container">
+            <div class="service-cta-banner wow fadeInUp" style="background: linear-gradient(135deg, var(--primary-color) 0%, #0d3b59 100%); color: #fff; padding: 45px 30px; border-radius: 16px; text-align: center;">
+                <h3 style="color: #fff; font-size: 28px; margin-bottom: 15px;">Planning Your Next Construction Project in Chennai?</h3>
+                <p style="color: #e2e8f0; max-width: 680px; margin: 0 auto 25px; font-size: 16px;">Speak with our civil engineers and architects to discuss your requirements, review structural options, and explore the right construction solution.</p>
+                <div style="display: flex; gap: 15px; justify-content: center; flex-wrap: wrap;">
+                    <a href="contact.php" class="btn-default btn-highlighted">Request a Free Consultation</a>
+                    <a href="tel:+919500036132" class="btn-default btn-outline"><i class="fa-solid fa-phone me-2"></i> Call Us Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About Bottom CTA End -->
 
     <?php include "footer.php"?>

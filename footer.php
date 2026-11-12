@@ -134,7 +134,7 @@ India.</p>
                     <div class="col-md-12">
                         <!-- Footer Copyright Start -->
                         <div class="footer-copyright-text">
-                            <p>Copyright © 2026 Sharp Associates. All Rights Reserved. Designed By <a href="https://fyndxmarketing.com/">FyndX Marketing Agency</a></p>
+                            <p>Copyright © 2026 Sharp Associates. All Rights Reserved.</p>
                         </div>
                         <!-- Footer Copyright End -->
                     </div>
@@ -157,6 +157,19 @@ India.</p>
         </a>
     </div>
     <!-- Sticky Contact Buttons End -->
+
+    <!-- Mobile Sticky Action Bar Start -->
+    <div class="mobile-sticky-action-bar">
+        <a href="tel:+919500036132" class="mobile-action-btn mobile-action-call" aria-label="Call Sharp Associates Now">
+            <i class="fa-solid fa-phone"></i>
+            <span>Call Us Now</span>
+        </a>
+        <a href="contact.php" class="mobile-action-btn mobile-action-consult" aria-label="Request a Free Consultation">
+            <i class="fa-solid fa-calendar-check"></i>
+            <span>Free Consultation</span>
+        </a>
+    </div>
+    <!-- Mobile Sticky Action Bar End -->
 
     <!-- Jquery Library File -->
     <script src="js/jquery-3.7.1.min.js" defer></script>
@@ -191,6 +204,8 @@ India.</p>
     <script src="js/wow.min.js" defer></script>
     <!-- Main Custom js file -->
     <script src="js/function.js" defer></script>
+    <!-- Toast Notification System -->
+    <script src="js/toast-notification.js" defer></script>
 </body>
 
 </html>

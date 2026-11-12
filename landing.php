@@ -27,7 +27,7 @@ if (($_SERVER["REQUEST_METHOD"] ?? '') === "POST") {
     $safe_property_location = htmlspecialchars($property_location, ENT_QUOTES, 'UTF-8');
     $safe_message = nl2br(htmlspecialchars($message !== '' ? $message : 'No additional message provided.', ENT_QUOTES, 'UTF-8'));
 
-    $recipient = "maaran@ysa-india.com,fyndxadmin@gmail.com";
+    $recipient = "maaran@ysa-india.com";
     $subject = "New Lead: {$service_label} Inquiry from {$name}";
 
     $detail_rows = "
@@ -478,6 +478,11 @@ if (($_SERVER["REQUEST_METHOD"] ?? '') === "POST") {
                                     <li>Timely Delivery</li>
                                 </ul>
                             </div>
+
+                            <div class="mt-4 wow fadeInUp" data-wow-delay="0.5s" style="display: flex; gap: 12px; flex-wrap: wrap;">
+                                <a href="contact.php" class="btn-default">Request a Free Consultation</a>
+                                <a href="tel:+919500036132" class="btn-default btn-highlighted"><i class="fa-solid fa-phone me-2"></i> Call Us Now</a>
+                            </div>
                         </div>
 
                         <div class="contact-us-image mt-5">
@@ -831,7 +836,7 @@ if (($_SERVER["REQUEST_METHOD"] ?? '') === "POST") {
                     <div class="col-md-12">
                         <!-- Footer Copyright Start -->
                         <div class="footer-copyright-text">
-                            <p>Copyright © 2026 Sharp Associates. All Rights Reserved. Designed By <a href="https://fyndxmarketing.com/">FyndX Marketing Agency</a></p>
+                            <p>Copyright © 2026 Sharp Associates. All Rights Reserved.</p>
                         </div>
                         <!-- Footer Copyright End -->
                     </div>
@@ -854,6 +859,19 @@ if (($_SERVER["REQUEST_METHOD"] ?? '') === "POST") {
         </a>
     </div>
     <!-- Sticky Contact Buttons End -->
+
+    <!-- Mobile Sticky Action Bar Start -->
+    <div class="mobile-sticky-action-bar">
+        <a href="tel:+919500036132" class="mobile-action-btn mobile-action-call" aria-label="Call Sharp Associates Now">
+            <i class="fa-solid fa-phone"></i>
+            <span>Call Us Now</span>
+        </a>
+        <a href="contact.php" class="mobile-action-btn mobile-action-consult" aria-label="Request a Free Consultation">
+            <i class="fa-solid fa-calendar-check"></i>
+            <span>Free Consultation</span>
+        </a>
+    </div>
+    <!-- Mobile Sticky Action Bar End -->
 
     <!-- Jquery Library File -->
     <script src="js/jquery-3.7.1.min.js" defer></script>

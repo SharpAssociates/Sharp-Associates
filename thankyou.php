@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&amp;display=swap" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link href="css/all.min.css" rel="stylesheet" media="screen">
+    <link href="css/custom.css" rel="stylesheet" media="screen">
     <style>
         :root {
             --thank-bg: #eef4f8;
@@ -179,5 +180,6 @@
             </div>
         </div>
     </div>
+    <script src="js/toast-notification.js" defer></script>
 </body>
 </html>

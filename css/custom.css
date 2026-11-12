@@ -1041,7 +1041,7 @@ header.main-header .header-btn .btn-default:active::before{
 /************************************/
 
 .about-us{
-	background-image: url('../images/section-bg-shape-1.svg');
+	background-image: url('../images/section-bg-shape-1.webp');
 	background-repeat: no-repeat;
 	background-position: left center;
 	background-size: contain;
@@ -1782,6 +1782,22 @@ header.main-header .header-btn .btn-default:active::before{
 
 .how-we-work-item{
 	width: calc(25% - 22.5px);
+	display: block;
+	cursor: pointer;
+	text-decoration: none;
+	color: inherit;
+	transition: transform 0.3s ease-in-out;
+}
+
+.how-we-work-item:hover,
+.how-we-work-item:focus{
+	text-decoration: none;
+	color: inherit;
+}
+
+.how-we-work-item:hover .how-we-work-content h3,
+.how-we-work-item:focus .how-we-work-content h3{
+	color: var(--accent-color);
 }
 
 .how-we-work-item .icon-box{
@@ -1837,7 +1853,7 @@ header.main-header .header-btn .btn-default:active::before{
 
 .our-skill{
 	padding: 100px 0;
-	background: url('../images/section-bg-shape-2.svg');
+	background: url('../images/section-bg-shape-2.webp');
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: contain;
@@ -2073,7 +2089,7 @@ header.main-header .header-btn .btn-default:active::before{
 
 .our-blog{
 	padding: 100px 0;
-	background: url('../images/section-bg-shape-2.svg');
+	background: url('../images/section-bg-shape-2.webp');
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-size: contain;
@@ -2646,7 +2662,7 @@ header.main-header .header-btn .btn-default:active::before{
 }
 
 .best-selling{
-	background: url(../images/section-bg-shape-1.svg);
+	background: url('../images/section-bg-shape-1.webp');
     background-repeat: no-repeat;
     background-position: left center;
     background-size: contain;
@@ -5415,3 +5431,553 @@ header.main-header .header-btn .btn-default:active::before{
         font-size: 13.5px;
     }
 }
+
+/**************************************************/
+/***  Conversion CTA & Mobile Action Bar Styles  ***/
+/**************************************************/
+
+.service-mid-cta {
+    background: #f8fafc;
+    border: 1px solid var(--divider-color);
+    border-left: 4px solid var(--accent-color);
+    border-radius: 12px;
+    padding: 26px 30px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 15px rgba(5, 44, 65, 0.04);
+}
+
+.service-mid-cta h4 {
+    font-size: 20px;
+    color: var(--primary-color);
+    margin-bottom: 6px;
+    font-weight: 700;
+}
+
+.service-mid-cta p {
+    font-size: 15px;
+    color: #475569;
+    margin: 0;
+}
+
+.service-mid-cta .btn-default {
+    padding: 12px 24px;
+    font-size: 14px;
+    margin-right: 0;
+}
+
+/* Mobile Sticky Bottom Action Bar */
+.mobile-sticky-action-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background: #052c41;
+    display: none;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 10px 14px;
+    z-index: 9999;
+    box-shadow: 0 -4px 20px rgba(5, 44, 65, 0.28);
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.mobile-action-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 11px 12px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    line-height: 1.2;
+    transition: all 0.25s ease-in-out;
+}
+
+.mobile-action-call {
+    background: #20a6ee;
+    color: #ffffff !important;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.mobile-action-call:hover,
+.mobile-action-call:focus {
+    background: #198ecc;
+    color: #ffffff !important;
+    text-decoration: none;
+}
+
+.mobile-action-consult {
+    background: var(--accent-color);
+    color: #ffffff !important;
+}
+
+.mobile-action-consult:hover,
+.mobile-action-consult:focus {
+    background: #c3983f;
+    color: #ffffff !important;
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .mobile-sticky-action-bar {
+        display: grid;
+    }
+    
+    body {
+        padding-bottom: 64px !important;
+    }
+    
+    .sticky-contact-buttons {
+        bottom: 74px !important;
+        left: 14px !important;
+    }
+}
+
+/**************************************************/
+/***  Modern Corporate Contact Form Redesign     ***/
+/**************************************************/
+
+.modern-contact-form-box {
+    background: #ffffff;
+    border: 1px solid rgba(141, 179, 226, 0.45);
+    border-radius: 20px;
+    box-shadow: 0 18px 45px rgba(16, 47, 66, 0.08), 0 4px 14px rgba(141, 179, 226, 0.06);
+    padding: 44px 40px;
+    margin-left: 20px;
+    transition: box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.modern-contact-form-box:hover {
+    box-shadow: 0 22px 54px rgba(16, 47, 66, 0.11), 0 6px 18px rgba(141, 179, 226, 0.1);
+    border-color: rgba(141, 179, 226, 0.7);
+}
+
+.contact-form-header {
+    margin-bottom: 26px;
+}
+
+.contact-form-eyebrow {
+    display: inline-flex;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #2b5d8f;
+    background: #F4F8FD;
+    border: 1px solid rgba(141, 179, 226, 0.35);
+    border-radius: 999px;
+    padding: 6px 15px;
+    margin-bottom: 12px;
+}
+
+.contact-form-title {
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 1.25;
+    color: #102F42;
+    margin-bottom: 10px;
+    letter-spacing: -0.5px;
+}
+
+.contact-form-title span {
+    color: #3b74af;
+}
+
+.contact-form-subtitle {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #556976;
+    margin: 0;
+}
+
+.modern-form-label {
+    display: block;
+    font-size: 13.5px;
+    font-weight: 600;
+    color: #102F42;
+    margin-bottom: 6px;
+    line-height: 1.3;
+}
+
+.required-star {
+    color: #dc3545;
+    font-weight: 700;
+    margin-left: 2px;
+}
+
+.modern-form-control {
+    width: 100%;
+    height: 52px;
+    background-color: #F8FAFD !important;
+    border: 1px solid #D8E3EF !important;
+    border-radius: 10px !important;
+    padding: 12px 18px !important;
+    font-size: 15px !important;
+    font-weight: 500 !important;
+    color: #102F42 !important;
+    font-family: var(--default-font) !important;
+    line-height: 1.4 !important;
+    box-shadow: none !important;
+    outline: none !important;
+    transition: border-color 0.25s ease, background-color 0.25s ease, box-shadow 0.25s ease !important;
+}
+
+.modern-form-control::placeholder {
+    color: #8898AA !important;
+    font-weight: 400 !important;
+    opacity: 1 !important;
+}
+
+.modern-form-control:hover {
+    border-color: #BACEE5 !important;
+    background-color: #F4F8FD !important;
+}
+
+.modern-form-control:focus {
+    background-color: #FFFFFF !important;
+    border-color: #8DB3E2 !important;
+    box-shadow: 0 0 0 3.5px rgba(141, 179, 226, 0.25) !important;
+    color: #102F42 !important;
+}
+
+.modern-form-select {
+    cursor: pointer;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%233b74af' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E") !important;
+    background-repeat: no-repeat !important;
+    background-position: right 18px center !important;
+    background-size: 16px 16px !important;
+    padding-right: 44px !important;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.modern-form-textarea {
+    height: auto !important;
+    min-height: 125px !important;
+    resize: vertical;
+    padding-top: 14px !important;
+}
+
+.btn-modern-submit {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    background: #3b74af;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1;
+    padding: 16px 36px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 8px 22px rgba(59, 116, 175, 0.3);
+    transition: all 0.28s cubic-bezier(0.16, 1, 0.3, 1);
+    text-decoration: none;
+    outline: none;
+}
+
+.btn-modern-submit i {
+    font-size: 14px;
+    transition: transform 0.25s ease;
+}
+
+.btn-modern-submit:hover {
+    background: #2b5d8f;
+    color: #ffffff;
+    transform: translateY(-2px);
+    box-shadow: 0 12px 28px rgba(59, 116, 175, 0.4);
+}
+
+.btn-modern-submit:hover i {
+    transform: translateX(4px);
+}
+
+.btn-modern-submit:active {
+    transform: translateY(0);
+    box-shadow: 0 4px 14px rgba(59, 116, 175, 0.25);
+}
+
+.btn-modern-submit:focus-visible {
+    outline: 3px solid #8DB3E2;
+    outline-offset: 3px;
+}
+
+.modern-contact-form .help-block.with-errors {
+    color: #dc3545;
+    font-size: 12.5px;
+    font-weight: 500;
+    margin-top: 5px;
+    line-height: 1.3;
+}
+
+.modern-contact-form .help-block.with-errors ul {
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 991px) {
+    .modern-contact-form-box {
+        margin-left: 0;
+        margin-top: 40px;
+        padding: 34px 28px;
+    }
+    .contact-form-title {
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 575px) {
+    .modern-contact-form-box {
+        padding: 26px 18px;
+        border-radius: 16px;
+    }
+    .contact-form-title {
+        font-size: 22px;
+    }
+    .btn-modern-submit {
+        width: 100%;
+        padding: 16px 20px;
+    }
+}
+
+/**************************************************/
+/***  Corporate Toast Notification System        ***/
+/**************************************************/
+
+.toast-container {
+    position: fixed;
+    top: 24px;
+    right: 24px;
+    z-index: 100000;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 410px;
+    max-width: calc(100vw - 32px);
+    pointer-events: none;
+}
+
+.corporate-toast {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    background: #ffffff;
+    border-radius: 14px;
+    padding: 16px 18px 18px 16px;
+    box-shadow: 0 16px 40px rgba(16, 47, 66, 0.14), 0 3px 10px rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(141, 179, 226, 0.4);
+    pointer-events: auto;
+    overflow: hidden;
+    transform: translateX(120%) scale(0.95);
+    opacity: 0;
+    transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), 
+                opacity 0.35s cubic-bezier(0.16, 1, 0.3, 1),
+                max-height 0.3s ease,
+                margin 0.3s ease,
+                padding 0.3s ease;
+    max-height: 250px;
+}
+
+.corporate-toast.toast-show {
+    transform: translateX(0) scale(1);
+    opacity: 1;
+}
+
+.corporate-toast.toast-hide {
+    transform: translateX(120%) scale(0.95);
+    opacity: 0;
+    max-height: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    margin-bottom: -12px !important;
+    border-width: 0 !important;
+}
+
+/* Variant Accents */
+.corporate-toast-success {
+    border-color: rgba(16, 185, 129, 0.3);
+    background: linear-gradient(135deg, #ffffff 0%, #f6fdf9 100%);
+}
+
+.corporate-toast-error {
+    border-color: rgba(239, 68, 68, 0.3);
+    background: linear-gradient(135deg, #ffffff 0%, #fdf7f7 100%);
+}
+
+.corporate-toast-warning {
+    border-color: rgba(141, 179, 226, 0.45);
+    background: linear-gradient(135deg, #ffffff 0%, #f7faff 100%);
+}
+
+/* Icon Box */
+.toast-icon-wrap {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    font-size: 16px;
+    margin-top: 2px;
+}
+
+.corporate-toast-success .toast-icon-wrap {
+    background: rgba(16, 185, 129, 0.12);
+    color: #059669;
+}
+
+.corporate-toast-error .toast-icon-wrap {
+    background: rgba(239, 68, 68, 0.12);
+    color: #dc2626;
+}
+
+.corporate-toast-warning .toast-icon-wrap {
+    background: rgba(141, 179, 226, 0.18);
+    color: #2b5d8f;
+}
+
+/* Content */
+.toast-body-content {
+    flex: 1;
+    min-width: 0;
+    padding-right: 6px;
+}
+
+.toast-title {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #102F42;
+    margin: 0 0 4px 0;
+    letter-spacing: -0.2px;
+}
+
+.toast-message {
+    font-size: 13.5px;
+    line-height: 1.5;
+    color: #556976;
+    margin: 0;
+    word-break: break-word;
+}
+
+/* Close Button */
+.toast-close-btn {
+    width: 28px;
+    height: 28px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border: none;
+    border-radius: 6px;
+    color: #94a3b8;
+    cursor: pointer;
+    flex-shrink: 0;
+    font-size: 14px;
+    transition: all 0.2s ease;
+    margin-top: -2px;
+    margin-right: -4px;
+}
+
+.toast-close-btn:hover {
+    background: rgba(16, 47, 66, 0.06);
+    color: #102F42;
+}
+
+.toast-close-btn:focus-visible {
+    outline: 2px solid #8DB3E2;
+    outline-offset: 1px;
+}
+
+/* Progress Bar */
+.toast-progress-bar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: rgba(0, 0, 0, 0.04);
+    overflow: hidden;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+}
+
+.toast-progress-fill {
+    height: 100%;
+    width: 100%;
+    transform-origin: left center;
+    transform: scaleX(1);
+    transition: transform linear;
+}
+
+.corporate-toast-success .toast-progress-fill {
+    background: #10B981;
+}
+
+.corporate-toast-error .toast-progress-fill {
+    background: #EF4444;
+}
+
+.corporate-toast-warning .toast-progress-fill {
+    background: #8DB3E2;
+}
+
+/* Responsive adjustments */
+@media (max-width: 575px) {
+    .toast-container {
+        top: 14px;
+        left: 14px;
+        right: 14px;
+        width: auto;
+    }
+    
+    .corporate-toast {
+        padding: 14px 14px 16px 14px;
+    }
+    
+    .toast-title {
+        font-size: 14.5px;
+    }
+    
+    .toast-message {
+        font-size: 13px;
+    }
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+    .corporate-toast {
+        transform: none !important;
+        transition: opacity 0.25s ease !important;
+    }
+    .toast-progress-fill {
+        transition: none !important;
+        display: none !important;
+    }
+}
+
+/* Mobile Performance: Suppress heavy decorative background watermarks on small screens */
+@media (max-width: 767px) {
+    .about-us,
+    .our-blog,
+    .our-skill,
+    .how-it-work,
+    .cta-box-layout,
+    .faq-section {
+        background-image: none !important;
+    }
+}
+

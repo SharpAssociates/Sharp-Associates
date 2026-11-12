@@ -203,6 +203,21 @@ include "header.php";
                             </div>
                             <!-- Key Features & Benefits End -->
 
+                            <!-- Mid-Page In-Content CTA Start -->
+                            <div class="service-mid-cta wow fadeInUp">
+                                <div class="row align-items-center">
+                                    <div class="col-md-7">
+                                        <h4>Planning Your Next Construction Project?</h4>
+                                        <p>Speak with our team to discuss your requirements and explore the right construction solution.</p>
+                                    </div>
+                                    <div class="col-md-5 text-md-end mt-3 mt-md-0" style="display: flex; gap: 10px; justify-content: flex-end; flex-wrap: wrap;">
+                                        <a href="contact.php" class="btn-default">Get Free Consultation</a>
+                                        <a href="tel:+919500036132" class="btn-default btn-highlighted"><i class="fa-solid fa-phone me-2"></i> Call Us Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Mid-Page In-Content CTA End -->
+
                             <!-- Approach & Workflow Start -->
                             <h3 class="wow fadeInUp" style="margin-bottom: 20px;">Our 5-Stage Interior Execution Process</h3>
                             <p class="wow fadeInUp">We follow a transparent and streamlined workflow to transform conceptual designs into reality:</p>
@@ -285,7 +300,7 @@ include "header.php";
                                     </div>
                                     <div class="col-md-6" style="margin-bottom: 20px;">
                                         <div style="border: 1px solid var(--divider-color); border-radius: 10px; overflow: hidden;">
-                                            <img src="images/resources/sharp-17.jpg" alt="Modern Modular Kitchen and Dining Layout Chennai" width="600" height="400" loading="lazy" style="width: 100%; aspect-ratio: 16/10; object-fit: cover;">
+                                            <img src="images/resources/sharp-17.webp" alt="Modern Modular Kitchen and Dining Layout Chennai" width="600" height="400" loading="lazy" decoding="async" style="width: 100%; aspect-ratio: 16/10; object-fit: cover;">
                                             <div style="padding: 20px;">
                                                 <h4 style="font-size: 18px; margin-bottom: 5px;">Modern Modular Kitchen &amp; Dining</h4>
                                                 <p style="font-size: 14px; color: #666; margin-bottom: 10px;">Marine-grade BWP modular kitchen with seamless quartz worktops and soft-close storage.</p>
@@ -365,8 +380,8 @@ include "header.php";
                                 <h3 style="color: #fff; font-size: 28px; margin-bottom: 15px;">Ready to Elevate Your Living Spaces in Chennai?</h3>
                                 <p style="color: #e2e8f0; max-width: 650px; margin: 0 auto 25px; font-size: 16px;">Schedule an interior design consultation with Sharp Associates to discuss floor plans, material options, and fixed-cost quotations.</p>
                                 <div style="display: flex; gap: 15px; justify-content: center; flex-wrap: wrap;">
-                                    <a href="landing.php" class="btn-default btn-highlighted">Request 3D Design Quote</a>
-                                    <a href="contact.php" class="btn-default btn-outline">Talk to Our Designer</a>
+                                    <a href="contact.php" class="btn-default btn-highlighted">Request a Free Consultation</a>
+                                    <a href="tel:+919500036132" class="btn-default btn-outline"><i class="fa-solid fa-phone me-2"></i> Call Us Now</a>
                                 </div>
                             </div>
                             <!-- Bottom CTA Banner End -->

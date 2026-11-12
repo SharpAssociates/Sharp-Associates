@@ -227,12 +227,14 @@ $is_service_active = in_array($page_slug, $service_slugs);
                                 </li>
                                 <li class="nav-item<?php echo ($page_slug === 'our-work.php') ? ' active' : ''; ?>"><a class="nav-link" href="our-work.php">Our Works</a></li>
                                 <li class="nav-item<?php echo (strpos($page_slug, 'blog') !== false) ? ' active' : ''; ?>"><a class="nav-link" href="blog.php">Blog</a></li>
-                                <li class="nav-item<?php echo ($page_slug === 'contact.php') ? ' active' : ''; ?>"><a class="nav-link" href="contact.php">Contact Us</a></li>                             
+                                <li class="nav-item<?php echo ($page_slug === 'contact.php') ? ' active' : ''; ?>"><a class="nav-link" href="contact.php">Contact Us</a></li>
+                                <li class="nav-item d-lg-none mobile-nav-consult"><a class="nav-link" href="contact.php" style="color: var(--accent-color) !important; font-weight: 700;"><i class="fa-solid fa-calendar-check me-2"></i> Free Consultation</a></li>
+                                <li class="nav-item d-lg-none mobile-nav-call"><a class="nav-link" href="tel:+919500036132" style="color: #38bdf8 !important; font-weight: 700;"><i class="fa-solid fa-phone me-2"></i> Call Us Now: +91 95000 36132</a></li>
                             </ul>
                         </div>
                         <!-- Header Btn Start -->
                         <div class="header-btn d-inline-flex">
-                            <a href="landing.php" class="btn-default">Enquiry Now</a>
+                            <a href="contact.php" class="btn-default">Free Consultation</a>
                         </div>
                         <!-- Header Btn End -->
 					</div>

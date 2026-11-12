@@ -375,7 +375,7 @@ include "header.php";
 				<div class="hero-card wow fadeInUp">
 					<div class="hero-image">
 						<figure class="image-anime reveal mb-0">
-							<img src="images/resources/sharp-11.jpg" alt="Sustainable construction and green building design" width="1200" height="960" loading="lazy" decoding="async">
+							<img src="images/resources/sharp-11.webp" alt="Sustainable construction and green building design" width="1200" height="960" loading="lazy" decoding="async">
 						</figure>
 						<div class="hero-badge">Sustainable Construction</div>
 					</div>
@@ -471,6 +471,10 @@ include "header.php";
 						<h3>Building Responsibly for Chennai&rsquo;s Future</h3>
 						<p>From energy-efficient architectural layouts to eco-conscious material sourcing and structured civil execution, Sharp Associates builds spaces that stand the test of time. Discover how our construction contractors integrate durability and sustainability across residential and commercial developments.</p>
 						<p>Discover our <a href="vastu-planning-chennai.php" style="color: #63ad8c; font-weight: 600; text-decoration: underline;">Vastu planning services</a>, <a href="building-plan-approvals-chennai.php" style="color: #63ad8c; font-weight: 600; text-decoration: underline;">building plan approvals</a>, or <a href="contact.php" style="color: #63ad8c; font-weight: 600; text-decoration: underline;">reach out to our civil engineering team</a> for an expert project consultation.</p>
+						<div class="closing-cta mt-4" style="display: flex; gap: 15px; flex-wrap: wrap;">
+							<a href="contact.php" class="btn-default">Request a Free Consultation</a>
+							<a href="tel:+919500036132" class="btn-default btn-highlighted"><i class="fa-solid fa-phone me-2"></i> Call Us Now</a>
+						</div>
 					</div>
 
 					<div class="post-tag-links mt-4">
@@ -529,6 +533,13 @@ include "header.php";
 						<li><a href="our-work.php" style="color: inherit; text-decoration: underline;">View Completed Construction Projects</a></li>
 						<li><a href="contact.php" style="color: inherit; text-decoration: underline;">Consult With Our Civil Contractors</a></li>
 					</ul>
+				</div>
+
+				<div class="sidebar-card wow fadeInUp" data-wow-delay="0.9s" style="background: linear-gradient(135deg, var(--primary-color) 0%, #0d3b59 100%); color: #fff; border-radius: 16px; padding: 25px; text-align: center;">
+					<h3 style="color: #fff; font-size: 20px; margin-bottom: 12px;">Planning a Project?</h3>
+					<p style="color: #cbd5e1; font-size: 14px; line-height: 1.6; margin-bottom: 20px;">Get expert engineering advice and a detailed cost estimate for your construction in Chennai.</p>
+					<a href="contact.php" class="btn-default" style="display: block; width: 100%; text-align: center; margin-bottom: 10px; margin-right: 0;">Request a Free Consultation</a>
+					<a href="tel:+919500036132" class="btn-default btn-highlighted" style="display: block; width: 100%; text-align: center; margin-right: 0;"><i class="fa-solid fa-phone me-2"></i> Call Us Now</a>
 				</div>
 			</div>
 		</div>
