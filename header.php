@@ -33,6 +33,7 @@ $is_service_active = in_array($page_slug, $service_slugs);
 <head>
 	<!-- Meta -->
 	<meta charset="utf-8">
+	<meta name="google-site-verification" content="MW8i7ckmMovjidpK5lYcyVAnZybMZMLflAawhCI6LJQ" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title><?php echo htmlspecialchars($page_title, ENT_QUOTES, 'UTF-8'); ?></title>
