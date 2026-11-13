@@ -6,7 +6,13 @@
 
 	/* Preloader Effect */
 	$window.on('load', function(){
-		$(".preloader").fadeOut(600);
+		$(".preloader").fadeOut(600, function() {
+			if (typeof ScrollTrigger !== 'undefined') {
+				ScrollTrigger.refresh();
+			}
+		});
+		// Defensive fallback: ensure all reveal containers and images are visible
+		$('.reveal').css({ 'visibility': 'visible', 'opacity': '1' });
 	});
 
 	/* Sticky Header */	
@@ -174,6 +180,7 @@
             let tl = gsap.timeline({
                 scrollTrigger: {
                     trigger: container,
+                    start: "top 85%",
                     toggleActions: "play none none none"
                 }
             });
@@ -182,14 +189,14 @@
             });
             tl.from(container, 1, {
                 xPercent: -100,
-                ease: Power2.out
+                ease: "power2.out"
             });
             if (image) {
                 tl.from(image, 1, {
                     xPercent: 100,
                     scale: 1,
                     delay: -1,
-                    ease: Power2.out
+                    ease: "power2.out"
                 });
             }
         });

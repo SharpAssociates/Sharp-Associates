@@ -157,7 +157,7 @@ body{
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
-    visibility: hidden;
+    visibility: visible;
     overflow: hidden;
 }
 
@@ -864,7 +864,7 @@ header.main-header .header-btn .btn-default:active::before{
 
 .hero{
 	position: relative;
-	background: url('../images/hero-bg.jpg');
+	background-color: var(--primary-color);
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -2427,7 +2427,8 @@ header.main-header .header-btn .btn-default:active::before{
 
 .page-header{
 	position: relative;
-	background: url('../images/resources/header-bg-img.webp');
+	background-color: var(--primary-color, #102F42);
+	background-image: url('../images/resources/header-bg-img.webp');
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -5979,11 +5980,8 @@ header.main-header .header-btn .btn-default:active::before{
     }
 }
 
-/* Mobile Performance: Suppress heavy decorative background watermarks on small screens */
+/* Mobile Performance: Suppress unneeded background patterns on small screens */
 @media (max-width: 767px) {
-    .about-us,
-    .our-blog,
-    .our-skill,
     .how-it-work,
     .cta-box-layout,
     .faq-section {
